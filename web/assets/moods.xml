@@ -1,0 +1,52 @@
+<moods>
+  <mood id="m_hppy" name="happy" desc="% is happy" hist="% is feeling happy" a0="mood_happy" icon="mood_happy"/>
+  <mood id="m_bshf" name="bashful" desc="% is bashful" hist="% is feeling bashful" a0="mood_bashful" icon="mood_bashful"/>
+  <mood id="m_nluv" name="in love" desc="% is in love" hist="% is in love" a0="mood_inLove" icon="mood_inLove"/>
+  <mood id="m_lkfl" name="looking for love" desc="% is looking for love" hist="% is looking for love" a0="mood_lookingForLove" icon="mood_lookingForLove"/>  
+  <mood id="m_gigl" name="giggly" desc="% is feeling giggly" hist="% is feeling giggly" a0="mood_giggle" icon="mood_giggly"/>
+  <mood id="m_bonc" name="bouncy" desc="% is bouncy" hist="% is feeling bouncy" a0="mood_gonnaSoarNow" icon="mood_bouncy"/>
+  <mood id="m_exci" name="excited" desc="% is excited" hist="% is feeling excited" a0="celebrate1" icon="anim_celebrate"/>
+
+  <mood id="m_hope" name="hopeful" desc="% is hopeful" hist="% is feeling hopeful" a0="pose_joinNow" icon="mood_hopeful"/>
+  <mood id="m_medt" name="meditating" desc="% is meditating" hist="% is meditating" a0="mood_meditative" icon="mood_meditative"/>
+  <mood id="m_sexy" name="sexy" desc="% is sexy" hist="% is sexy" a0="pose_stand_model" icon="mood_sexy"/>
+  <mood id="m_lkgd" name="looking good" desc="% is looking good" hist="% is looking good" a0="pose_contra_lookFeet" icon="mood_lookingGood"/>
+  <mood id="m_ostm" name="overstimulated" desc="% is overstimulated" hist="% is feeling overstimulated" a0="pose_contra_attention" icon="mood_overstimulated"/>
+  <mood id="m_fab" name="fabulous" desc="% is fabulous" hist="% is feeling fabulous" a0="pose_contra_bow" icon="mood_fabulous"/>
+  <mood id="m_fit" name="fit" desc="% is fit" hist="% is feeling fit" a0="pose_stand_stretch" icon="anim_kick"/>
+  <mood id="m_sens" name="sensational" desc="% is sensational" hist="% is feeling sensational" a0="pose_contra_canCan" icon="mood_fabulous"/>
+
+  <mood id="m_frsk" name="frisky" desc="% is frisky" hist="% is feeling frisky" a0="blowKiss1" icon="anim_blowKiss"/>
+  <mood id="m_smit" name="smitten" desc="% is smitten" hist="% is feeling smitten" a0="idolize1" icon="mood_happy"/>
+  <mood id="m_chky" name="cheeky" desc="% is cheeky" hist="% is feeling cheeky" a0="mock1" icon="mood_sexy"/>
+  <mood id="m_hpcu" name="happy to see you" desc="% is happy to see you" hist="% is happy to see you" a0="waveAt1" icon="anim_waveAt"/>
+  <mood id="m_ttth" name="talk to the hand" desc="% is talk to the hand!" hist="% is talk to the hand!" a0="mood_talkToHand" icon="anim_gimmeFive"/>
+  <mood id="m_flyn" name="flying high" desc="% is flying high" hist="% is flying high" a0="mood_flying" icon="mood_flying"/>
+
+  <mood id="m_tire" name="tired" desc="% is tired" hist="% is feeling tired" a0="mood_tired" icon="mood_tired"/>
+  <mood id="m_drng" name="dreaming" desc="% is dreaming" hist="% is dreaming" a0="mood_dreaming" icon="mood_dreaming"/>  
+  <mood id="m_slpg" name="sleeping" desc="% is sleeping" hist="% is sleeping" a0="mood_sleeping" icon="mood_sleeping"/>  
+  <mood id="m_bord" name="bored" desc="% is bored" hist="% is bored" a0="mood_bored" icon="mood_bored"/>
+
+  <mood id="m_impa" name="impatient" desc="% is feeling impatient" hist="% is feeling impatient" a0="mood_impatient" icon="mood_impatient"/>  
+  <mood id="m_conf" name="confused" desc="% is feeling confused" hist="% is feeling confused" a0="mood_confused" icon="mood_confused"/>  
+
+  <mood id="m_cryn" name="crying" desc="% is crying" hist="% is crying" a0="mood_cry" icon="mood_sad"/>
+  <mood id="m_terr" name="terrified" desc="% is terrified" hist="% is terrified" a0="mood_terrified" icon="mood_terrified"/>
+  <mood id="m_sad" name="sad" desc="% is sad" hist="% is feeling sad" a0="mood_sad" icon="mood_sad"/>
+  <mood id="m_rjct" name="rejected" desc="% is rejected" hist="% is feeling rejected" a0="mock2" icon="mood_sad"/>
+  <mood id="m_angr" name="angry" desc="% is angry" hist="% is feeling angry" a0="mood_angry" icon="mood_angry"/>
+  <mood id="m_evil" name="evil" desc="% is feeling evil" hist="% is feeling evil" a0="mood_evil" icon="mood_evil"/>
+  <mood id="m_snky" name="sneaky" desc="% is feeling sneaky" hist="% is feeling sneaky" a0="mood_sneaky" icon="mood_sneaky"/>  
+  <mood id="m_zomb" name="a zombie" desc="% is feeling like a zombie" hist="% is feeling like a zombie" a0="mood_zombie" icon="mood_zombie"/>
+  <mood id="m_kfkd" name="Kung Fu Kid" desc="% is Kung Fu Kid" hist="% is the Kung Fu Kid" a0="kick1" icon="mood_kungFuKid"/>
+
+
+<mood id="m_swrd" name="Sword Master" desc="% is a Sword Master" hist="% is a Sword Master" a0="mood_swordTwirl" icon="mood_swordTwirl"/>  
+<mood id="m_jam1" name="Rock Star" desc="% is a Rock Star" hist="% is a Rock Star" a0="jamA1" icon="anim_jamA"/>
+<mood id="m_jam2" name="Guitar Vigilante" desc="% is a Guitar Vigilante" hist="% is a Guitar Vigilante" a0="jamB2" icon="anim_jamB"/>
+
+
+
+  
+</moods>

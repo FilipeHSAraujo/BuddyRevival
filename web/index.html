@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BuddyRevival</title>
+<link rel="stylesheet" href="styles.css">
+<script type="module" src="src/main.js"></script>
+</head>
+<body>
+<img class="decoration left" src="assets/ui/clip_left.svg" alt="">
+<img class="decoration right" src="assets/ui/clip_right.svg" alt="">
+<main>
+  <section>
+    <h1>BuddyRevival</h1>
+    <canvas id="stage" width="692" height="520"></canvas>
+    <p id="caption" aria-live="polite"></p>
+  </section>
+  <aside>
+    <div role="tablist">
+      <button role="tab" id="tab-wardrobe" aria-controls="panel-wardrobe" aria-selected="true"></button>
+      <button role="tab" id="tab-moods" aria-controls="panel-moods" aria-selected="false"></button>
+      <button role="tab" id="tab-pokes" aria-controls="panel-pokes" aria-selected="false"></button>
+    </div>
+    <div role="tabpanel" id="panel-wardrobe" aria-labelledby="tab-wardrobe">
+      <div class="toolbar" role="radiogroup">
+        <label><input type="radio" name="who" value="me" checked> <span id="label-me"></span></label>
+        <label><input type="radio" name="who" value="friend"> <span id="label-friend"></span></label>
+        <button class="button" id="reset"></button>
+        <button class="button" id="randomize"></button>
+      </div>
+      <div class="toolbar">
+        <label for="code" id="label-code"></label>
+        <input type="text" id="code" spellcheck="false">
+        <button class="button" id="copy"></button>
+        <button class="button" id="apply"></button>
+      </div>
+      <div id="wardrobe"><p class="loading">…</p></div>
+    </div>
+    <div role="tabpanel" id="panel-moods" aria-labelledby="tab-moods" hidden><div class="actions" id="moods"></div></div>
+    <div role="tabpanel" id="panel-pokes" aria-labelledby="tab-pokes" hidden><div class="actions" id="pokes"></div></div>
+  </aside>
+</main>
+</body>
+</html>

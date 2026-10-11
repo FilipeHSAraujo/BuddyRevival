@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messagebundle>
+
+  <msg name="BuddyPoke your friends with super cool, personalized 3D avatars!">用超酷,個人化的 3D avatars 來 BuddyPoke 你的朋友!</msg>
+  <msg name="Express yourself! Hug, kiss, tickle, or punch your friends with your own personalized 3D avatar.">表達自己!擁抱,吻,逗...笑,或是用個人化的 3D avatars 來拳打你的朋友. </msg>
+
+  <!-- Messages and Errors-->
+  <!-- 信息和失誤錯誤-->
+
+  <msg name="We're sorry, there was an error loading your buddy.">對不起,下載你的搭擋時發生錯誤</msg>
+  <msg name="We're sorry, there was an error saving your poke.">對不起,儲存你的poke時發生錯誤 </msg>
+  <msg name="We're sorry, there was an error saving your mood.">對不起,儲存你的情緒時發生錯誤</msg>
+  <msg name="We're sorry, there was an error saving your appearance.">對不起,儲存你的外貌時發生錯誤</msg>
+
+  <msg name="BuddyPoke is undergoing maintenance.">BuddyPoke正在維修中</msg>
+  <msg name="Please come back later. Thank you.">請稍後再回來.謝謝. </msg>
+
+  <msg name="BuddyPoke is having a massage.">BuddyPoke有信息.</msg>
+  <msg name="Please enjoy a cup of tea and a piece of cake, and try again later.">請先享受一杯茶和一塊蛋糕,稍後再試.</msg>
+
+  <msg name="Error loading user's name">下載用戶名稱時發生故障</msg>
+  <msg name="Error loading name">下載名稱時發生故障</msg>
+  <msg name="Error loading friends">下載友人時發生故障</msg>
+
+  <msg name="None of your friends have BuddyPoke.">你的全部的友人也沒有BuddyPoke</msg>
+
+  <msg name="Invite your friends; BuddyPoke is a lot more fun with friends to poke.">邀請你的朋友, 與友人一起poke BuddyPoke更有趣</msg>
+  <msg name="Invite friends">邀請你的朋友</msg>
+  <msg name="Invite friends now">立刻邀請你的朋友</msg>
+  <msg name="Invite friends you'd like to poke">邀請你喜歡的朋友來poke</msg>
+
+  <msg name="Get your own BuddyPoke!">拿取你自己的BuddyPoke!</msg>
+  <msg name="Get your own SUPER COOL BuddyPoke!">拿取你自己超酷的BuddyPoke!</msg>
+
+  <msg name="BuddyPoke now">立刻 BuddyPoke</msg>
+  <msg name="BuddyPoke me"> BuddyPoke我</msg>
+
+  <msg name="You’ve been BuddyPoked">你已備BuddyPoke</msg>
+  <msg name="Click to BuddyPoke back.">選按來BuddyPoke </msg>
+
+  <msg name="Loading...">下載中...</msg>
+  <msg name="Back">退回</msg>
+  <msg name="Next">接下</msg>
+  <msg name="Previous">先前</msg>
+  <msg name="Close">關上</msg>
+  <msg name="Done">結束</msg>
+  <msg name="Save">儲存</msg>
+  <msg name="Exit">登出</msg>
+  <msg name="Profile">特徵</msg>
+
+  <!-- UI text -->
+  <!-- UI 文字-->
+
+
+  <msg name="poke">探聽</msg>
+  <msg name="Poke a Friend">探聽一個友人</msg>
+  <msg name="poke back">返探聽</msg>
+  <msg name="poke %">探聽 %</msg>
+
+  <msg name="mood">情緒</msg>
+  <msg name="How are you feeling today?">你今天感覺如何?</msg>
+  <msg name="Change Mood">改變情緒</msg>
+  <msg name="Change your mood:">改變你的情緒:</msg>
+  <msg name="Change your mood">改變你的情緒</msg>
+  <msg name="Saving your mood...">儲存你的情緒...</msg>
+
+  <msg name="appearance">外貌</msg>
+  <msg name="Customize Appearance">定做外貌</msg>
+  <msg name="Customize your appearance:">定做你的外貌:</msg>
+
+  <msg name="Customize your Buddy">定做你的搭擋</msg>
+  <msg name="Save your changes">儲存你的變更</msg>
+  <msg name="Saving your appearance...">正在儲存你的外貌...</msg>
+
+
+  <msg name="What would you like to do to, %?">%,你想做什麼?</msg>
+  <msg name="Select a Friend">選擇一個友人</msg>
+  <msg name="Select a friend to BuddyPoke:">選擇一個友人來BuddyPoke</msg>
+  <msg name="Saving your poke...">正在儲存你的poke...</msg>
+
+  <!-- Comments and scrapbook -->
+  <!-- 意見  與 剪貼簿-->
+  <msg name="Share">分享</msg>
+  <msg name="Scrapbook">剪貼簿</msg>
+  <msg name="Comments">意見</msg>
+
+  <msg name="Add a COMMENT to a friend's page:">添加意見於友人的頁上:</msg>
+
+  <msg name="Add your Buddy to a friend's scrapbook:">添加Buddy於友人的剪貼簿上:</msg>
+
+  <msg name="1. Select an animation:">1.選擇一個動畫</msg>
+  <msg name="2. Copy your HTML code below">2. 複製 HTML程式於下面 </msg>
+  <msg name="3. Go to your friend's profile page">3. 去你友人的數據圖表頁</msg>
+
+  <msg name="4. Click 'Add Comment'. Paste the HTML code.">4.選按'添加意見'.貼上HTML程式. </msg>
+
+  <msg name="3. Go to your friend's scrapbook">3. 到你友人的剪貼簿</msg>
+
+  <msg name="4. Paste the HTML code. Click 'post scrap'.">4. 貼上HTML程式.選按 'post scrap'</msg>
+
+
+  <!-- Chat bubbles -->
+  <!-- 聊天氣泡-->
+
+  <msg name="Select a font">選擇一個字體</msg>
+  <msg name="Text alignment">文字調校</msg>
+  <msg name="Font color">字體顏色</msg>
+  <msg name="Font size">字體大小</msg>
+  <msg name="Alignment">調校</msg>
+
+
+  <msg name="Add a chat bubble">添加聊天氣泡</msg>
+  <msg name="Add a comic chat bubble">添加漫畫聊天氣泡</msg>
+  <msg name="Chat bubble">聊天氣泡</msg>
+
+  <msg name="1. Select a chat bubble:">1. 選擇一個聊天氣泡:</msg>
+  <msg name="2. Select a bubble style:">2.選擇一款氣泡:</msg>
+  <msg name="3. Select a font style:">3. 選擇一款字體:</msg>
+  <msg name="4. Enter your text:">4. 輸入文字:</msg>
+
+
+  <!-- Camera -->
+  <!-- 攝影機 -->
+  <msg name="Camera">攝影機</msg>
+  <msg name="Camera position">攝影機位置</msg>
+  <msg name="Camera angle">攝影機角度</msg>
+  <msg name="Camera rotation">攝影機轉動</msg>
+  <msg name="Camera zoom">攝影機迅速接近</msg>
+  <msg name="Camera field of view">攝影機</msg>
+  <msg name="rotation">轉動</msg>
+  <msg name="position">位置</msg>
+  <msg name="pan">慢慢轉向</msg>
+  <msg name="zoom">縮放</msg>
+  <msg name="angle">角度</msg>
+  <msg name="field of view">視野地域</msg>
+
+  <msg name="drag">拖動</msg>
+  <msg name="click and drag your mouse to pan">按掣與拖動滑鼠到盤</msg>
+  <msg name="click and drag your mouse to move left or right">按掣與拖動滑鼠來左右移動</msg>
+  <msg name="click and drag your mouse to rotate">按掣與拖動滑鼠來轉動</msg>
+  <msg name="use the scroll wheel to zoom"> 用scroll wheel來縮放</msg>
+
+
+  <!-- Customization -->
+  <!-- 定製 -->
+  <msg name="color">顏色</msg>
+  <msg name="option">選擇</msg>
+  <msg name="texture">構造</msg>
+  <msg name="customize">定製</msg>
+  <msg name="customization">定製</msg>
+
+  <msg name="Head">頭</msg>
+  <msg name="Body">身</msg>
+  <msg name="Head Color">頭色</msg>
+  <msg name="Body Color">身色</msg>
+  <msg name="Hair">頭髮</msg>
+  <msg name="Hair Tints">頭髮濃淡</msg>
+  <msg name="Shaved Hair">剃去的頭髮</msg>
+  <msg name="Cap">帽子</msg>
+  <msg name="Eyes">眼</msg>
+  <msg name="Eye Shadow">眼影</msg>
+  <msg name="Mustache">小鬍子</msg>
+  <msg name="5 O’Clock">五點鐘</msg>
+
+  <msg name="Glasses">眼鏡</msg>
+  <msg name="Mask">面具</msg>
+  <msg name="Shirt">襯衫</msg>
+  <msg name="Shirt Options">襯衫選擇</msg>
+  <msg name="Pants">褲子</msg>
+  <msg name="Skirt">裙子</msg>
+  <msg name="Belt">腰帶</msg>
+  <msg name="Shoes">鞋</msg>
+  <msg name="Shoe Options">鞋子選擇</msg>
+  <msg name="Socks">短襪</msg>
+  <msg name="Gloves">手套</msg>
+
+
+  <msg name="Freckles">雀斑</msg>
+  <msg name="Tattoos">刺花</msg>
+  <msg name="Accessories">配件</msg>
+  <msg name="Superhero">超級英雄</msg>
+  <msg name="Cape">斗篷</msg>
+  <msg name="Wings">翅膀</msg>
+
+
+
+  <!-- Dates -->
+  <!-- 日期 -->
+  <msg name="Today">今天</msg>
+  <msg name="Yesterday">昨天</msg>
+
+  <msg name="Sunday">星期日</msg>
+  <msg name="Monday">星期一</msg>
+  <msg name="Tuesday">星期二</msg>
+  <msg name="Wednesday">星期三</msg>
+  <msg name="Thursday">星期四</msg>
+  <msg name="Friday">星期五</msg>
+  <msg name="Saturday">星期六</msg>
+
+
+  <msg name="January">一月</msg>
+  <msg name="February">二月</msg>
+  <msg name="March">三月</msg>
+  <msg name="April">四月</msg>
+  <msg name="May">五月</msg>
+  <msg name="June">六月</msg>
+  <msg name="July">七月</msg>
+  <msg name="August">八月</msg>
+  <msg name="September">九月</msg>
+  <msg name="October">十月</msg>
+  <msg name="November">十一月</msg>
+  <msg name="December">十二月</msg>
+
+
+  <!-- Moods -->
+  <!-- 情緒 -->
+
+  <msg name="happy">มีความสุข</msg>
+  <msg name="% is happy">% 正高興</msg>
+  <msg name="% is feeling happy">% 正感到高興</msg>
+
+  <msg name="bashful">害羞</msg>
+  <msg name="% is bashful">% 正害羞</msg>
+  <msg name="% is feeling bashful">% 正感到害羞</msg>
+
+  <msg name="in love">在戀愛中</msg>
+  <msg name="% is in love">% 正在戀愛中</msg>
+  <msg name="% is feeling loved">% 正感到在戀愛中</msg>
+
+  <msg name="giggly">在傻笑</msg>
+  <msg name="% is giggly">% 正在傻笑</msg>
+  <msg name="% is feeling giggly">% 正感到在傻笑</msg>
+
+  <msg name="bouncy">彈力足的</msg>
+  <msg name="% is bouncy">% 正在彈力足的</msg>
+  <msg name="% is feeling bouncy">% 正感到彈力足的</msg>
+
+  <msg name="excited">興奮的</msg>
+  <msg name="% is excited">% 正在興奮的</msg>
+  <msg name="% is feeling excited">% 正感到興奮的</msg>
+
+  <msg name="hopeful">有希望的</msg>
+  <msg name="% is hopeful">% 正有希望的</msg>
+  <msg name="% is feeling hopeful">% 正感到有希望的</msg>
+
+  <msg name="meditating">沈思</msg>
+  <msg name="% is meditating">% 正在沈思</msg>
+
+  <msg name="sexy">性感的</msg>
+  <msg name="% is sexy">% 是性感的</msg>
+  <msg name="% is feeling sexy">% 正感到性感的</msg>
+
+  <msg name="looking good">漂亮的</msg>
+  <msg name="% is looking good">% 是漂亮的</msg>
+  <msg name="% is looking great">% 是很漂亮的</msg>
+
+  <msg name="overstimulated">過於興奮</msg>
+  <msg name="% is overstimulated">% 是過於興奮</msg>
+  <msg name="% is feeling overstimulated">% 正感到過於興奮</msg>
+
+  <msg name="fabulous">極好的</msg>
+  <msg name="% is fabulous">% 是極好的</msg>
+  <msg name="% is feeling fabulous">% 正感到極好的</msg>
+
+  <msg name="fit">強健的</msg>
+  <msg name="% is fit">% 是強健的</msg>
+  <msg name="% is feeling fit">% 正感到強健的</msg>
+
+  <msg name="sensational">極好的</msg>
+  <msg name="% is sensational">% 是極好的</msg>
+  <msg name="% is feeling sensational">% 正感到極好的</msg>
+
+  <msg name="frisky">活躍的</msg>
+  <msg name="% is frisky">% 是活躍的</msg>
+  <msg name="% is feeling frisky">% 正感到活躍的</msg>
+
+  <msg name="smitten">極度不安</msg>
+  <msg name="% is smitten">% 是極度不安</msg>
+  <msg name="% is feeling smitten">% 正感到使極度不安</msg>
+
+  <msg name="cheeky">厚臉皮的</msg>
+  <msg name="% is cheeky">% 是厚臉皮的</msg>
+  <msg name="% is feeling cheeky">% 正感到厚臉皮的</msg>
+
+  <msg name="happy to see you">高興看到你</msg>
+  <msg name="% is happy to see you">% 正感到高興看到你</msg>
+
+  <msg name="talk to the hand">ฉันไม่สน</msg>
+  <msg name="% is “talk to the hand!”">% ทำท่า “ฉันไม่สน”</msg>
+
+  <msg name="flying high">高飛</msg>
+  <msg name="% is flying high">% 正高飛</msg>
+
+  <msg name="crying">在哭泣</msg>
+  <msg name="% is crying">% 正在哭泣</msg>
+  <msg name="% is feeling upset">% 正感到心煩意亂</msg>
+
+  <msg name="terrified">害怕</msg>
+  <msg name="% is terrified">% 在害怕</msg>
+  <msg name="% is feeling terrified">% 正感到害怕</msg>
+
+  <msg name="tired">疲倦</msg>
+  <msg name="% is tired">% 正疲倦</msg>
+  <msg name="% is feeling tired">% 正感到疲倦</msg>
+
+  <msg name="bored">厭煩</msg>
+  <msg name="% is bored">% 正厭煩</msg>
+  <msg name="% is feeling bored">% 正感到厭煩</msg>
+
+  <msg name="sad">悲哀</msg>
+  <msg name="% is sad">% 正悲哀</msg>
+  <msg name="% is feeling sad">% 正感到悲哀</msg>
+
+  <msg name="rejected">被拒絕</msg>
+  <msg name="% is rejected">% 被拒絕</msg>
+  <msg name="% is feeling rejected">% 正感到被拒絕</msg>
+
+  <msg name="angry">生氣</msg>
+  <msg name="% is angry">% 生氣</msg>
+  <msg name="% is feeling angry">% 正感到生氣</msg>
+
+  <msg name="evil">邪惡的</msg>
+  <msg name="% is evil">% 是邪惡的</msg>
+  <msg name="% is feeling evil">% 正感到邪惡的</msg>
+
+  <msg name="a zombie">殭屍</msg>
+  <msg name="% is feeling like a zombie">% 正感到是殭屍</msg>
+  <msg name="% is a zombie">% 是殭屍</msg>
+
+  <msg name="Kung Fu Kid">功夫小子</msg>
+  <msg name="% is the Kung Fu Kid">% 是功夫小子</msg>
+
+  <msg name="Sword Master">劍俠</msg>
+  <msg name="% is a Sword Master">% 是劍俠</msg>
+
+  <msg name="Guitar God">吉他神</msg>
+  <msg name="% is a Guitar God">% 是吉他神</msg>
+
+  <msg name="Guitar Vigilante">吉他Vigilante</msg>
+  <msg name="% is a Guitar Vigilante">% 是吉他Vigilante</msg>
+
+  <msg name="Guitar Hero">吉他英雄</msg>
+  <msg name="% is a Guitar Hero">% 是吉他英雄</msg>
+
+  <msg name="Rock Star">搖滾樂明星</msg>
+  <msg name="% is a Rock Star">% 是搖滾樂明星</msg>
+
+  <msg name="impatient">不耐煩的</msg>
+  <msg name="% is impatient">% 是不耐煩的</msg>
+  <msg name="% is feeling impatient">% 正感到不耐煩的</msg>
+
+  <msg name="looking for love">尋找愛情</msg>
+  <msg name="% is looking for love">% 在尋找愛情</msg>
+
+  <msg name="sneaky">鬼鬼祟祟的</msg>
+  <msg name="% is sneaky">% 是鬼鬼祟祟的</msg>
+  <msg name="% is feeling sneaky">% 正感到鬼鬼祟祟的</msg>
+
+  <msg name="dreaming">夢想</msg>
+  <msg name="% is dreaming">% 在夢想</msg>
+  <msg name="% is feeling dreamy">% 正感到在夢想</msg>
+  <msg name="% is dreaming of you">% 正夢想到你</msg>
+
+  <msg name="confused">困惑的</msg>
+  <msg name="% is confused">% 是困惑的</msg>
+  <msg name="% is feeling confused">% 正感到困惑的</msg>
+
+  <msg name="sleeping">睡著的</msg>
+  <msg name="% is sleeping">% 是睡著的</msg>
+
+  <msg name="add me">包括我</msg>
+  <msg name="% is “add me”">% 是 “包括我”</msg>
+  <msg name="% is “add me please”">% 是 “請包括我”</msg>
+
+  <msg name="cuddly">逗人喜愛的</msg>
+  <msg name="% is cuddly">% 是逗人喜愛的</msg>
+  <msg name="% is feeling cuddly">% 正感到逗人喜愛的</msg>
+
+  <msg name="disgruntled">不高興</msg>
+  <msg name="% is disgruntled">% 是不高興</msg>
+  <msg name="% is feeling disgruntled">% 正感到不高興</msg>
+
+
+  <!-- Pokes -->
+  <!-- 探聽-->
+
+  <msg name="bear hug">熊抱</msg>
+  <msg name="bear hugged">熊抱</msg>
+  <msg name="Give % a bear hug"> 送給一個 % 熊抱</msg>
+  <msg name="%1 gave %2 a bear hug">%1 送給 %2 一個熊抱</msg>
+  <msg name="% gave you a bear hug">% 送你一個熊抱</msg>
+
+
+  <msg name="hug">擁抱</msg>
+  <msg name="hugged">擁抱</msg>
+  <msg name="Give % a hug">給 % 一個擁抱</msg>
+  <msg name="%1 gave %2 a hug">%1 給 %2 一個擁抱</msg>
+  <msg name="% gave you a hug">% 給你一個擁抱</msg>
+
+
+  <msg name="blow kiss">飛吻</msg>
+  <msg name="blew a kiss">給一個飛吻</msg>
+  <msg name="Blow a kiss at %">一個飛吻 %</msg>
+  <msg name="%1 blew a kiss at %2">%1 送一個飛吻給 %2</msg>
+  <msg name="% blew a kiss at you">% 送一個飛吻給你</msg>
+
+
+  <msg name="kiss">吻</msg>
+  <msg name="kissed">吻</msg>
+  <msg name="Kiss %">吻 %</msg>
+  <msg name="%1 kissed %2">%1 吻 %2</msg>
+  <msg name="% kissed you">% 吻你</msg>
+
+
+  <msg name="cheek kiss">吻臉頰</msg>
+  <msg name="kissed on the cheek">吻在臉頰</msg>
+  <msg name="Give % a kiss on the cheek">送 % 一個吻在臉頰</msg>
+  <msg name="%1 kissed %2 on the cheek">%1吻在 %2 的臉頰</msg>
+  <msg name="% kissed you on the cheek">% 吻在你的臉頰</msg>
+
+  <msg name="rub noses">擦鼻子</msg>
+  <msg name="rubbed noses">擦鼻子</msg>
+  <msg name="Rub noses with %"> 用 % 擦鼻子</msg>
+  <msg name="%1 rubbed noses with %2">%1 用 %2 擦鼻子</msg>
+  <msg name="% rubbed noses with you">% 與你擦鼻子</msg>
+
+
+  <msg name="hold hands">牽手</msg>
+  <msg name="held hands">牽手</msg>
+  <msg name="Hold hands with %">與 % 牽手</msg>
+  <msg name="%1 held hands with %2">%1 與 %2 牽手</msg>
+  <msg name="% held hands with you">% 與你牽手</msg>
+
+
+  <msg name="gossip">說長道短</msg>
+  <msg name="gossiped">說長道短</msg>
+  <msg name="Gossip with %">與 % 說長道短</msg>
+  <msg name="%1 gossiped with %2">%1 與 %2說長道短</msg>
+  <msg name="% gossiped with you">% 與你說長道短</msg>
+
+
+
+  <msg name="celebrate">慶祝</msg>
+  <msg name="celebrated">慶祝</msg>
+  <msg name="Celebrate with %">與 % 慶祝</msg>
+  <msg name="%1 celebrated with %2">%1 與 %2 慶祝</msg>
+  <msg name="% celebrated with you">% 與你慶祝</msg>
+
+  <msg name="gimme five"> 擊掌</msg>
+  <msg name="high five"> 舉手擊掌</msg>
+  <msg name="High five %">與 % 舉手擊掌</msg>
+  <msg name="%1 gave %2 a high five">%1 與 %2 舉手擊掌</msg>
+  <msg name="% gave you a high five">%  與你舉手擊掌</msg>
+
+
+  <msg name="gimme ten">雙手擊掌</msg>
+  <msg name="give me ten">雙手擊掌</msg>
+  <msg name="high ten">舉雙手擊掌</msg>
+  <msg name="High ten %">與 % 舉雙手擊掌 </msg>
+  <msg name="%1 gave %2 a high ten">%1 與 %2舉雙手擊掌</msg>
+  <msg name="% gave you a high ten">% 與你舉雙手擊掌</msg>
+
+
+  <msg name="handshake"> 握手</msg>
+  <msg name="shook hands"> 握手</msg>
+  <msg name="Shake hands with %">與 % 握手</msg>
+  <msg name="%1 shook hands with %2">%1 與 %2 握手</msg>
+  <msg name="% shook hands with you">%  與你握手</msg>
+
+
+
+  <msg name="handshake hug">握手擁抱</msg>
+  <msg name="handshake hugged">握手擁抱</msg>
+  <msg name="Give % a handshake hug">與 %握手擁抱</msg>
+  <msg name="%1 gave %2 a handshake hug">%1 與 %2 握手擁抱</msg>
+  <msg name="% gave you a handshake hug">% 與你握手擁抱</msg>
+
+
+
+  <msg name="patty cake">patty cake</msg>
+  <msg name="played patty cake">played patty cake</msg>
+  <msg name="Play patty cake with %">Play patty cake with %</msg>
+  <msg name="%1 played patty cake with %2">%1 played patty cake with %2</msg>
+  <msg name="% played patty cake with you">% played patty cake with you</msg>
+
+
+  <msg name="tickle">逗笑</msg>
+  <msg name="tickled">逗笑</msg>
+  <msg name="Tickle %">逗 % 笑</msg>
+  <msg name="%1 tickled %2">%1 逗 %2笑</msg>
+  <msg name="% tickled you">% 逗你笑</msg>
+
+
+  <msg name="wave">揮手</msg>
+  <msg name="waved at">揮手</msg>
+  <msg name="Wave at %">向 % 揮手</msg>
+  <msg name="%1 waved at %2">%1 向 %2揮手</msg>
+  <msg name="% waved at you">% 揮手</msg>
+
+
+  <msg name="bump hips">碰屁股</msg>
+  <msg name="bumped hips">碰屁股</msg>
+  <msg name="Bump hips with %">與 % 碰屁股</msg>
+  <msg name="%1 bumped hips with %2">%1 與 %2碰屁股</msg>
+  <msg name="% bumped hips with you">% 與你碰屁股</msg>
+
+  <msg name="idolize">偶像</msg>
+  <msg name="idolized">偶像</msg>
+  <msg name="Idolize %">把 % 當偶像</msg>
+  <msg name="%1 idolized %2">%1 把 %2 當偶像</msg>
+  <msg name="% idolized you">% 把你當偶像</msg>
+
+
+  <msg name="kick">踢</msg>
+  <msg name="kicked">踢</msg>
+  <msg name="Give % a kick">踢向 %</msg>
+  <msg name="%1 kicked %2">%1 踢向 %2</msg>
+  <msg name="% kicked you">% 踢向你</msg>
+
+  <msg name="mock">模仿</msg>
+  <msg name="mocked">模仿</msg>
+  <msg name="Mock %">模仿 %</msg>
+  <msg name="%1 mocked %2">%1 模仿 %2</msg>
+  <msg name="% mocked you">% 模仿你</msg>
+
+
+
+  <msg name="poke">探聽</msg>
+  <msg name="poked">探聽</msg>
+  <msg name="Give % a poke">向 % 探聽</msg>
+  <msg name="%1 poked %2">%1 探聽 %2</msg>
+  <msg name="% poked you">% 探聽你</msg>
+
+
+  <msg name="punch">拳打</msg>
+  <msg name="punched">拳打</msg>
+  <msg name="Punch %">拳打 %</msg>
+  <msg name="%1 punched %2">%1 拳打%2</msg>
+  <msg name="% punched you">% 拳打你</msg>
+
+
+  <msg name="slap butt">拍屁股</msg>
+  <msg name="slapped">拍</msg>
+  <msg name="Slap %'s butt">拍 % 的屁股</msg>
+  <msg name="%1 slapped %2's butt">%1 拍 %2 的屁股</msg>
+  <msg name="% slapped your butt">% 你的屁股</msg>
+
+
+
+  <msg name="slap face">摑耳光</msg>
+  <msg name="slapped">摑</msg>
+  <msg name="Slap %'s face">摑 % 的耳光</msg>
+  <msg name="%1 slapped %2's face">%1 摑 %2 的耳光</msg>
+  <msg name="% slapped your face">% 摑你的耳光</msg>
+
+
+  <msg name="jam on guitar">彈奏吉他</msg>
+  <msg name="jammed">彈奏</msg>
+  <msg name="Jam on guitars with %">與 % 彈奏吉他</msg>
+  <msg name="%1 jammed with %2">%1 與 %2 彈奏吉他</msg>
+  <msg name="% jammed with you">% 與你彈奏吉他</msg>
+
+  <msg name="Rock Star">搖滾樂明星</msg>
+  <msg name="rock stars">搖滾樂明星</msg>
+  <msg name="Rock out with %">與 % 搖滾</msg>
+  <msg name="%1 and %2 rocked out">%1 與 %2 搖滾</msg>
+  <msg name="%1 and %2 are rock stars">%1 與 %2 搖滾樂明星</msg>
+  <msg name="You and % are rock stars">你與 % 搖滾樂明星</msg>
+
+
+  <msg name="Guitar Hero">吉他英雄</msg>
+  <msg name="guitar heroes">吉他英雄</msg>
+  <msg name="Play guitar hero with %">與 % 玩吉他英雄</msg>
+  <msg name="%1 and %2 played guitar hero">%1 與 %2 玩吉他英雄</msg>
+  <msg name="You and % played guitar hero">你與 % 玩吉他英雄</msg>
+
+
+  <msg name="serenade">小夜曲</msg>
+  <msg name="serenaded">唱(或奏)了小夜曲</msg>
+  <msg name="Serenade %">對 % 唱(或奏)小夜曲</msg>
+  <msg name="%1 serenaded %2">%1 對 %2 唱(或奏)小夜曲</msg>
+  <msg name="% serenaded you">% 對你唱(或奏)小夜曲</msg>
+
+  <msg name="race scooters">比賽小輪摩托車</msg>
+  <msg name="raced scooters">比賽了小輪摩托車</msg>
+  <msg name="Race %">與 % 比賽</msg>
+  <msg name="%1 raced %2">%1 與 %2 比賽</msg>
+  <msg name="% raced you">% 與你比賽</msg>
+  <msg name="% raced you and won!">% 與你比賽獲勝</msg>
+
+
+  <msg name="ride scooters">乘小輪摩托車</msg>
+  <msg name="rode scooters">乘小輪摩托車</msg>
+  <msg name="Ride scooters with %">與 % 乘小輪摩托車</msg>
+  <msg name="%1 rode scooters with %2">%1 與 %2 乘小輪摩托車</msg>
+  <msg name="% rode scooters with you">% 與你乘小輪摩托車</msg>
+
+  <msg name="give a rose">給你一支玫瑰</msg>
+  <msg name="gave a rose">給你一支玫瑰</msg>
+  <msg name="Give % a rose">給 % 一支玫瑰</msg>
+  <msg name="%1 gave a rose to %2">%1 給 %2 一支玫瑰</msg>
+  <msg name="% gave you a rose">% 給你一支玫瑰</msg>
+
+
+  <msg name="add me as a friend">加我作為一個朋友</msg>
+  <msg name="wants to add">想加</msg>
+  <msg name="Add % as a friend">加 % 作為一個朋友</msg>
+  <msg name="%1 wants to add %2 as a friend">%1 加 %2 作為一個朋友</msg>
+  <msg name="% wants to add you as a friend">% 加你作為一個朋友</msg>
+
+
+
+  <msg name="chat">聊天</msg>
+  <msg name="chatted">聊天</msg>
+  <msg name="Chat with %">與 % 聊天</msg>
+  <msg name="%1 chatted with %2">%1 與 %2 聊天</msg>
+  <msg name="% chatted with you">% 與您聊天</msg>
+
+
+  <msg name="complain">投訴</msg>
+  <msg name="complained">投訴</msg>
+  <msg name="Complain to %">向 % 投訴</msg>
+  <msg name="%1 complained to %2">%1 向 %2 投訴</msg>
+  <msg name="% complained to you">% 向你投訴</msg>
+
+
+  <msg name="console">撫慰</msg>
+  <msg name="consoled">撫慰了</msg>
+  <msg name="Console %">撫慰 %</msg>
+  <msg name="%1 consoled %2">%1 撫慰 %2</msg>
+  <msg name="% consoled you">% 撫慰你</msg>
+
+
+  <msg name="comfort">安慰</msg>
+  <msg name="comforted">安慰了</msg>
+  <msg name="Comfort %">安慰 %</msg>
+  <msg name="%1 comforted %2">%1 安慰 %2</msg>
+  <msg name="% comforted you">% 安慰你 </msg>
+
+</messagebundle>

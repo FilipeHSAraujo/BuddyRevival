@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<messagebundle>
+
+  <msg name="BuddyPoke your friends with super cool, personalized 3D avatars!">BuddyPoke tes amis avec des avatars 3D personnalisés et sympas!</msg>
+  <msg name="Express yourself! Hug, kiss, tickle, or punch your friends with your own personalized 3D avatar.">Exprime-toi! Communique avec tes amis (embrassades, bises, chatouilles, coups de poing) avec ton propre avatar 3D personnalisé.</msg>
+
+  <!-- Messages and Errors -->
+  <!-- Messages et erreurs -->
+
+  <msg name="We're sorry, there was an error loading your buddy.">Désolés, une erreur s’est produite lors du chargement de ton BuddyPoke.</msg>
+  <msg name="We're sorry, there was an error saving your poke.">Désolés, une erreur s’est produite lors de l’enregistrement de ton BuddyPoke.</msg>
+  <msg name="We're sorry, there was an error saving your mood.">Désolés, une erreur s’est produite lors de l'enregistrement de ton humeur.</msg>
+  <msg name="We're sorry, there was an error saving your appearance.">Désolés, une erreur s’est produite lors de l'enregistrement de ton apparence.</msg>
+
+  <msg name="BuddyPoke is undergoing maintenance.">BuddyPoke est en cours de maintenance.</msg>
+  <msg name="Please come back later. Thank you.">S’il vous plaît revenez plus tard. Merci.</msg>
+
+  <msg name="BuddyPoke is having a massage.">BuddyPoke se fait masser</msg>
+  <msg name="Please enjoy a cup of tea and a piece of cake, and try again later.">Prends une tasse de thé et un morceau de gâteau, et ré-essaie plus tard...!</msg>
+
+  <msg name="Error loading user's name">Une erreur de s’est produite lors du chargement du nom de l'utilisateur</msg>
+  <msg name="Error loading name">Une erreur de s’est produite lors du chargement du nom</msg>
+  <msg name="Error loading friends">Une erreur de s’est produite lors du chargement d'amis</msg>
+
+  <msg name="None of your friends have BuddyPoke.">Aucun de tes amis n'a de BuddyPoke</msg>
+
+  <msg name="Invite your friends; BuddyPoke is a lot more fun with friends to poke.">Invite tes amis; BuddyPoke, c'est plus sympa à partager/poker entre amis.</msg>
+  <msg name="Invite friends">Invite des amis</msg>
+  <msg name="Invite friends now">Invite des amis maintenant</msg>
+  <msg name="Invite friends you'd like to poke">Invite des amis à qui tu souhaites faire coucou</msg>
+
+  <msg name="Get your own BuddyPoke!">Procure-toi ton propre Buddypoke!</msg>
+  <msg name="Get your own SUPER COOL BuddyPoke!">Procure-toi ton BuddyPoke SUPER COOL!</msg>
+
+  <msg name="BuddyPoke now">BuddyPoke dès maintenant</msg>
+  <msg name="BuddyPoke me">BuddyPoke moi</msg>
+
+  <msg name="You’ve been BuddyPoked">On t'a Buddypoké</msg>
+  <msg name="Click to BuddyPoke back.">Clique et BuddyPoke en retour</msg>
+
+  <msg name="Loading...">chargement en cours...</msg>
+  <msg name="Back">Retour</msg>
+  <msg name="Next">Suivant</msg>
+  <msg name="Previous">Précédent</msg>
+  <msg name="Close">Fermer</msg>
+  <msg name="Done">Terminé</msg>
+  <msg name="Save">Enregistre</msg>
+  <msg name="Exit">Quitter</msg>
+  <msg name="Profile">Profil</msg>
+  
+  <!-- UI text -->
+  <!-- Texte de l’Interface Utilisateur IU -->
+
+
+  <msg name="poke">poke</msg>
+  <!--msg name="Poke a Friend">Pokear um amigo</msg-->
+  <msg name="Poke a Friend">Poke un ami</msg>
+  <msg name="poke back">Poke en retour</msg>
+  <msg name="poke %">Poke %</msg>
+
+  <msg name="mood">humeur</msg>
+  <msg name="How are you feeling today?">Comment te sens-tu aujourd'hui?</msg>
+  <!--msg name="Change Mood">Change d'humeur</msg-->
+  <msg name="Change Mood">Humeur</msg>
+  <msg name="Change your mood:">Change ton humeur:</msg>
+  <msg name="Change your mood">Change ton humeur</msg>
+  <msg name="Saving your mood...">Enregistrement de ton humeur...</msg>
+  <msg name="Saving your mood change...">Enregistrement de ton humeur...</msg>
+
+  <msg name="appearance">apparence</msg>
+  <msg name="Customize Appearance">Personnaliser l'apparence</msg>
+  <msg name="Customize your appearance:">Personnalise ton apparence</msg>
+
+  <msg name="Customize your Buddy">Personnalise ton BuddyPoke</msg>
+  <msg name="Save your changes">Enregistre tes modifications</msg>
+  <msg name="Saving your appearance...">Enregistrement de ton apparence en cours...</msg>
+
+
+  <msg name="What would you like to do to, %?">Qu'aimerais-tu faire, %?</msg>
+  <msg name="Select a Friend">Sélectionne un ami</msg>
+  <msg name="Select a friend to BuddyPoke:">Sélectionne un ami à Buddypoker</msg>
+  <msg name="Saving your poke...">Enregistrement de ton poke en cours...</msg>
+
+  <!-- Comments and scrapbook -->
+  <!-- Commentaires et scrapbook -->
+  <msg name="Share">Partage</msg>
+  <msg name="Scrapbook">Scrapbook</msg>
+  <msg name="Comments">Commentaires</msg>
+
+  <msg name="Add a COMMENT to a friend's page:">Ajoute un commentaire à la page d'un ami</msg>
+
+  <msg name="Add your Buddy to a friend's scrapbook:">Ajoute ton BuddyPoke au scrapbook d'un ami</msg>
+
+  <msg name="1. Select an animation:">1. Sélectionne une animation</msg>
+  <msg name="2. Copy your HTML code below">2. Copie ton code HTML en dessous</msg>
+  <msg name="3. Go to your friend's profile page">3. Va à la page du profil de ton ami</msg>
+
+  <msg name="4. Click 'Add Comment'. Paste the HTML code.">4. Clique sur 'Ajouter un commentaire'. Colle le code HTML.</msg>
+
+  <msg name="3. Go to your friend's scrapbook">3. Rejoins le scrapbook de ton ami</msg>
+
+  <msg name="4. Paste the HTML code. Click 'post scrap'.">4. Colle le code HTML. Clique sur 'post scrap'.</msg>
+
+
+  <!-- Chat bubbles -->
+  <!-- bulles de Chat -->
+
+  <msg name="Select a font">Sélectionne une police de caractère</msg>
+  <msg name="Text alignment">Alignement de texte</msg>
+  <msg name="Font color">Couleur de police de caractère</msg>
+  <msg name="Font size">Taille de police de caractère</msg>
+  <msg name="Alignment">Alignement</msg>
+
+
+  <msg name="Add a chat bubble">Ajoute une bulle de Chat</msg>
+  <msg name="Add a comic chat bubble">Ajoute une bulle de Chat</msg>
+  <msg name="Chat bubble">Bbulle de chat</msg>
+
+  <msg name="1. Select a chat bubble:">1. Sélectionne une bulle de chat</msg>
+  <msg name="2. Select a bubble style:">2. Sélectionne un style de bulle</msg>
+  <msg name="3. Select a font style:">3. Sélectionne un style de police de caractère</msg>
+  <msg name="4. Enter your text:">4. Entre Saisis ton texte</msg>
+
+
+  <!-- Camera -->
+  <!-- Caméra -->
+  <msg name="Camera">Caméra</msg>
+  <msg name="Camera position">Position de l'appareil photo</msg>
+  <msg name="Camera angle">Angle de l'appareil photo</msg>
+  <msg name="Camera rotation">Rotation de l'appareil photo</msg>
+  <msg name="Camera zoom">Zoom de l'appareil photo</msg>
+  <msg name="Camera field of view">Angle de vue l'appareil photo</msg>
+  <msg name="rotation">rotation</msg>
+  <msg name="position">position</msg>
+  <msg name="pan">panoramique</msg>
+  <msg name="zoom">zoom</msg>
+  <msg name="angle">angle</msg>
+  <msg name="field of view">angle de vue</msg>
+
+  <msg name="drag">glisser</msg>
+  <msg name="click and drag your mouse to pan">effectue un clic et fais glisser ta souris pour réaliser un panoramique</msg>
+  <msg name="click and drag your mouse to move left or right">effectue un clic et fais glisser ta souris pour te déplacer vers la gauche ou vers la droite</msg>
+  <msg name="click and drag your mouse to rotate">effectue un clic et fais glisser ta souris pour tourner</msg>
+  <msg name="use the scroll wheel to zoom">utilise la roulette de défilement pour zoomer</msg>
+
+
+  <!-- Customization -->
+  <!-- Personnalisation -->
+  <msg name="color">couleur</msg>
+  <msg name="option">option</msg>
+  <msg name="texture">texture</msg>
+  <msg name="customize">personnalise</msg>
+  <msg name="customization">personnalisation</msg>
+
+  <msg name="Head">Tête</msg>
+  <msg name="Body">Corps</msg>
+  <!--msg name="Head Color">Couleur de la tête</msg>
+  <msg name="Body Color">Couleur du corps</msg-->
+  <msg name="Head Color">Tête</msg>
+  <msg name="Body Color">Corps</msg>
+  <msg name="Hair">Cheveux</msg>
+  <msg name="Hair Color">Cheveux 2</msg>
+  <msg name="Hair Streak">Cheveux 3</msg>
+  <msg name="Hair Tints">Teintes des cheveux</msg>
+  <msg name="Shaved Hair">Cheveux rasés</msg>
+  <msg name="Cap">Casquette</msg>
+  <msg name="Eyes">Yeux</msg>
+  <!--msg name="Eye Shadow">Ombre à paupières</msg-->
+  <msg name="Eye Shadow">Yeux 2</msg>
+  <msg name="Mustache">Moustache</msg>
+  <msg name="5 O'Clock">Chaume</msg>
+
+  <msg name="Glasses">Lunettes</msg>
+  <msg name="Mask">Masque</msg>
+  <msg name="Shirt">Chemise</msg>
+  <msg name="Shirt 2">Chemise 2</msg>
+  <msg name="Shirt Options">Options de chemise</msg>
+  <msg name="Pants">Pantalon</msg>
+  <msg name="Pants 2">Pantalon 2</msg>
+  <msg name="Skirt">Jupe</msg>
+  <msg name="Belt">Ceinture</msg>
+  <msg name="Shoes">Chaussures</msg>
+  <msg name="Shoe Pattern">Chaussures 2</msg>
+  <msg name="Shoe Options">Options de chaussures</msg>
+  <msg name="Socks">Chaussettes</msg>
+  <msg name="Gloves">Gants</msg>
+
+
+  <msg name="Freckles">Tâches de rousseur</msg>
+  <msg name="Tattoos">Tatouages</msg>
+  <msg name="Accessories">Accessoires</msg>
+  <msg name="Superhero">Superhero</msg>
+  <msg name="Cape">Cape</msg>
+  <msg name="Wings">Ailes</msg>
+
+
+
+  <!-- Dates -->
+  <!-- dates -->
+  <msg name="Today">aujourd'hui</msg>
+  <msg name="Yesterday">hier</msg>
+
+  <msg name="Sunday">dimanche</msg>
+  <msg name="Monday">lundi</msg>
+  <msg name="Tuesday">mardi</msg>
+  <msg name="Wednesday">mercredi</msg>
+  <msg name="Thursday">jeudi</msg>
+  <msg name="Friday">vendredi</msg>
+  <msg name="Saturday">samedi</msg>
+
+
+  <msg name="January">janvier</msg>
+  <msg name="February">février</msg>
+  <msg name="March">mars</msg>
+  <msg name="April">avril</msg>
+  <msg name="May">mai</msg>
+  <msg name="June">juin</msg>
+  <msg name="July">juillet</msg>
+  <msg name="August">août</msg>
+  <msg name="September">septembre</msg>
+  <msg name="October">octobre</msg>
+  <msg name="November">novembre</msg>
+  <msg name="December">décembre</msg>
+
+  
+  <!-- Moods -->
+  <!-- humeurs -->
+
+  <msg name="happy">heureux</msg>
+  <msg name="% is happy">% est heureux</msg>
+  <msg name="% is feeling happy">% se sent heureux</msg>
+
+  <msg name="bashful">timide</msg>
+  <msg name="% is bashful">% est timide</msg>
+  <msg name="% is feeling bashful">% se sent timide</msg>
+
+  <msg name="in love">amoureux</msg>
+  <msg name="% is in love">% est amoureux</msg>
+  <msg name="% is feeling loved">% se sent amoureux</msg>
+
+  <msg name="giggly">rire</msg>
+  <msg name="% is giggly">% est rire</msg>
+  <msg name="% is feeling giggly">% se sent rire</msg>
+
+  <msg name="bouncy">dynamique</msg>
+  <msg name="% is bouncy">% est dynamique</msg>
+  <msg name="% is feeling bouncy">% se sent dynamique</msg>
+
+  <msg name="excited">excité</msg>
+  <msg name="% is excited">% est excité</msg>
+  <msg name="% is feeling excited">% se sent excité</msg>
+
+  <msg name="hopeful">plein d'espoir</msg>
+  <msg name="% is hopeful">% a plein d'espoir</msg>
+  <msg name="% is feeling hopeful">% se sent plein d'espoir</msg>
+
+  <msg name="meditating">qui médite</msg>
+  <msg name="% is meditating">% médite</msg>
+
+  <msg name="sexy">sexy</msg>
+  <msg name="% is sexy">% est sexy</msg>
+  <msg name="% is feeling sexy">% se sent sexy</msg>
+
+  <msg name="looking good">beau</msg>
+  <msg name="% is looking good">% est beau</msg>
+  <msg name="% is looking great">% est beau</msg>
+  <msg name="looking good(f)">rayonnant</msg>
+  <msg name="% is looking good(f)">% est radieuse</msg>
+  <msg name="% is looking great(f)">% est radieuse</msg>
+
+  <msg name="overstimulated">overstimulated</msg>
+  <msg name="% is overstimulated">% est overstimulated</msg>
+  <msg name="% is feeling overstimulated">% se sent overstimulated</msg>
+
+  <msg name="fabulous">fabuleux</msg>
+  <msg name="% is fabulous">% est fabuleux</msg>
+  <msg name="% is feeling fabulous">% se sent fabuleux</msg>
+  <msg name="fabulous(f)">fabuleuse</msg>
+  <msg name="% is fabulous(f)">% est fabuleuse</msg>
+  <msg name="% is feeling fabulous(f)">% se sent fabuleuse</msg>
+
+  <msg name="fit">en forme</msg>
+  <msg name="% is fit">% est en forme</msg>
+  <msg name="% is feeling fit">% se sent en forme</msg>
+
+  <msg name="sensational">sensationnel</msg>
+  <msg name="% is sensational">% est sensationnel</msg>
+  <msg name="% is feeling sensational">% se sent sensationnel</msg>
+  <msg name="sensational(f)">sensationnelle</msg>
+  <msg name="% is sensational(f)">% est sensationnelle</msg>
+  <msg name="% is feeling sensational(f)">% se sent sensationnelle</msg>
+
+  <msg name="frisky">frisky</msg>
+  <msg name="% is frisky">% est frisky</msg>
+  <msg name="% is feeling frisky">% se sent frisky</msg>
+
+  <msg name="smitten">smitten</msg>
+  <msg name="% is smitten">% est smitten</msg>
+  <msg name="% is feeling smitten">% sent smitten</msg>
+
+  <msg name="cheeky">coquine</msg>
+  <msg name="% is cheeky">% est coquine</msg>
+  <msg name="% is feeling cheeky">% se sent coquine</msg>
+
+  <msg name="happy to see you">content de te voir</msg>
+  <msg name="% is happy to see you">% est content de te voir</msg>
+  <msg name="happy to see you(f)">contente de te voir</msg>
+  <msg name="% is happy to see you(f)">% est contente de te voir</msg>
+
+  <msg name="talk to the hand">parle à ma main!</msg>
+  <msg name="% is “talk to the hand!”">% est “parle à ma main!”</msg>
+
+  <msg name="flying high">flying high</msg>
+  <msg name="% is flying high">% est flying high</msg>
+
+  <msg name="crying">qui pleure</msg>
+  <msg name="% is crying">% est à pleurer</msg>
+  <msg name="% is feeling upset">% est à pleurer</msg>
+
+  <msg name="terrified">terrifié</msg>
+  <msg name="% is terrified">% est terrifié</msg>
+  <msg name="% is feeling terrified">% est terrifié</msg>
+  <msg name="terrified(f)">terrifiée</msg>
+  <msg name="% is terrified(f)">% est terrifiée</msg>
+  <msg name="% is feeling terrified(f)">% est terrifiée</msg>
+
+  <msg name="tired">fatigué</msg>
+  <msg name="% is tired">% est fatigué</msg>
+  <msg name="% is feeling tired">% se sent fatigué</msg>
+  <msg name="tired(f)">fatiguée</msg>
+  <msg name="% is tired(f)">% est fatiguée</msg>
+  <msg name="% is feeling tired(f)">% se sent fatiguée</msg>
+
+  <msg name="bored">ennui</msg>
+  <msg name="% is bored">% est ennuyer</msg>
+  <msg name="% is feeling bored">% se sent ennuyer</msg>
+
+  <msg name="sad">triste</msg>
+  <msg name="% is sad">% est triste</msg>
+  <msg name="% is feeling sad">% se sent triste</msg>
+
+  <msg name="rejected">rejeté</msg>
+  <msg name="% is rejected">% est rejeté</msg>
+  <msg name="% is feeling rejected">% se sent rejeté</msg>
+  <msg name="rejected(f)">rejetée</msg>
+  <msg name="% is rejected(f)">% est rejetée</msg>
+  <msg name="% is feeling rejected(f)">% se sent rejetée</msg>
+
+  <msg name="angry">furieux</msg>
+  <msg name="% is angry">% est furieux</msg>
+  <msg name="% is feeling angry">% se sent furieux</msg>
+  <msg name="angry(f)">furieuse</msg>
+  <msg name="% is angry(f)">% est furieuse</msg>
+  <msg name="% is feeling angry(f)">% se sent furieuse</msg>
+
+  <msg name="evil">malveillant</msg>
+  <msg name="% is evil">% est malveillant</msg>
+  <msg name="% is feeling evil">% est malveillant</msg>
+  <msg name="evil(f)">malveillante</msg>
+  <msg name="% is evil(f)">% est malveillante</msg>
+  <msg name="% is feeling evil(f)">% est malveillante</msg>
+
+  <msg name="a zombie">un zombie</msg>
+  <msg name="% is feeling like a zombie">% se sent comme un zombie</msg>
+  <msg name="% is a zombie">% est un zombie</msg>
+
+  <msg name="Kung Fu Kid">Enfant Kung Fu</msg>
+  <msg name="% is the Kung Fu Kid">% est l'Enfant Kung Fu</msg>
+
+  <msg name="Sword Master">Maître de L'Epée</msg>
+  <msg name="% is a Sword Master">% est un maître de l'Epée</msg>
+
+  <!--msg name="Guitar God">Guitar God</msg>
+  <msg name="% is a Guitar God">% est un Guitar God</msg>
+
+  <msg name="Guitar Vigilante">Guitar Vigilante</msg>
+  <msg name="% is a Guitar Vigilante">% est un </msg>
+
+  <msg name="Guitar Hero">Guitar Hero</msg>
+  <msg name="% is a Guitar Hero">% est un </msg>
+
+  <msg name="Rock Star">Rock Star</msg>
+  <msg name="% is a Rock Star">% est un </msg-->
+
+  <msg name="impatient">impatient</msg>
+  <msg name="% is impatient">% est impatient</msg>
+  <msg name="% is feeling impatient">% se sent impatient</msg>
+  <msg name="impatient(f)">impatiente</msg>
+  <msg name="% is impatient(f)">% est impatiente</msg>
+  <msg name="% is feeling impatient(f)">% se sent impatiente</msg>
+
+  <msg name="looking for love">en quête d'amour</msg>
+  <msg name="% is looking for love">% est en quête d'amour</msg>
+
+  <msg name="sneaky">sournois</msg>
+  <msg name="% is sneaky">% est sournois</msg>
+  <msg name="% is feeling sneaky">% est sournois</msg>
+  <msg name="sneaky(f)">sournoise</msg>
+  <msg name="% is sneaky(f)">% est sournoise</msg>
+  <msg name="% is feeling sneaky(f)">% est sournoise</msg>
+
+  <msg name="dreaming">rêveur</msg>
+  <msg name="% is dreaming">% est rêveur</msg>
+  <msg name="% is feeling dreamy">% se sent rêveur</msg>
+  <msg name="dreaming(f)">rêveuse</msg>
+  <msg name="% is dreaming(f)">% est rêveuse</msg>
+  <msg name="% is feeling dreamy(f)">% se sent rêveuse</msg>
+  <msg name="% is dreaming of you">% rêve de toi</msg>
+
+  <msg name="confused">confus</msg>
+  <msg name="% is confused">% est confus</msg>
+  <msg name="% is feeling confused">% se sent confus</msg>
+  <msg name="confused(f)">confuse</msg>
+  <msg name="% is confused(f)">% est confuse</msg>
+  <msg name="% is feeling confused(f)">% se sent confuse</msg>
+
+  <msg name="sleeping">endormi</msg>
+  <msg name="% is sleeping">% dort</msg>
+  <msg name="sleeping(f)">endormie</msg>
+
+  <msg name="add me">ajoute moi</msg>
+  <msg name="% is “add me”">% est d'humeur à “ajoute moi”</msg>
+  <msg name="% is “add me please”">% est d'humeur à “ajoute moi s’il te plaît”</msg>
+
+  <msg name="cuddly">câlin</msg>
+  <msg name="% is cuddly">% est câlin</msg>
+  <msg name="% is feeling cuddly">% se sent câlin</msg>
+  <msg name="cuddly(f)">câline</msg>
+  <msg name="% is cuddly(f)">% est câline</msg>
+  <msg name="% is feeling cuddly(f)">% se sent câline</msg>
+
+  <msg name="disgruntled">mécontent</msg>
+  <msg name="% is disgruntled">% est mécontent</msg>
+  <msg name="% is feeling disgruntled">% se sent mécontent</msg>
+  <msg name="disgruntled(f)">mécontente</msg>
+  <msg name="% is disgruntled(f)">% est mécontente</msg>
+  <msg name="% is feeling disgruntled(f)">% se sent mécontente</msg>
+
+
+  <!-- Pokes -->
+  <!-- Pokes  -->
+
+  <!-->msg name="bear hug"></msg>
+  <msg name="bear hugged"></msg>
+  <msg name="Give % a bear hug"></msg>
+  <msg name="%1 gave %2 a bear hug"></msg>
+  <msg name="% gave you a bear hug"></msg>
+
+
+  <msg name="hug"></msg>
+  <msg name="hugged"></msg>
+  <msg name="Give % a hug"></msg>
+  <msg name="%1 gave %2 a hug"></msg>
+  <msg name="% gave you a hug"></msg>
+  
+
+  <msg name="blow kiss"></msg>
+  <msg name="blew a kiss"></msg>
+  <msg name="Blow a kiss at %"></msg>
+  <msg name="%1 blew a kiss at %2"></msg>
+  <msg name="% blew a kiss at you"></msg>
+
+
+
+  <msg name="kiss"></msg>
+  <msg name="kissed"></msg>
+  <msg name="Kiss %"></msg>
+  <msg name="%1 kissed %2"></msg>
+  <msg name="% kissed you"></msg>
+
+
+  <msg name="cheek kiss"></msg>
+  <msg name="kissed on the cheek"></msg>
+  <msg name="Give % a kiss on the cheek"></msg>
+  <msg name="%1 kissed %2 on the cheek"></msg>
+  <msg name="% kissed you on the cheek"></msg>
+
+
+  <msg name="rub noses"></msg>
+  <msg name="rubbed noses"></msg>
+  <msg name="Rub noses with %"></msg>
+  <msg name="%1 rubbed noses with %2"></msg>
+  <msg name="% rubbed noses with you"></msg>
+
+
+  <msg name="hold hands"></msg>
+  <msg name="held hands"></msg>
+  <msg name="Hold hands with %"></msg>
+  <msg name="%1 held hands with %2"></msg>
+  <msg name="% held hands with you"></msg>
+
+
+  <msg name="gossip"></msg>
+  <msg name="gossiped"></msg>
+  <msg name="Gossip with %"></msg>
+  <msg name="%1 gossiped with %2"></msg>
+  <msg name="% gossiped with you"></msg>
+
+
+  <msg name="celebrate"></msg>
+  <msg name="celebrated"></msg>
+  <msg name="Celebrate with %"></msg>
+  <msg name="%1 celebrated with %2"></msg>
+  <msg name="% celebrated with you"></msg>
+
+
+
+  <msg name="gimme five"></msg>
+  <msg name="high five"></msg>
+  <msg name="High five %"> %</msg>
+  <msg name="%1 gave %2 a high five"></msg>
+  <msg name="% gave you a high five"></msg>
+
+
+
+
+  <msg name="gimme ten"></msg>
+  <msg name="give me ten"></msg>
+  <msg name="high ten"></msg>
+  <msg name="High ten %"></msg>
+  <msg name="%1 gave %2 a high ten"></msg>
+  <msg name="% gave you a high ten"></msg>
+
+
+
+  <msg name="handshake"></msg>
+  <msg name="shook hands"></msg>
+  <msg name="Shake hands with %"></msg>
+  <msg name="%1 shook hands with %2"></msg>
+  <msg name="% shook hands with you"></msg>
+
+
+  <msg name="handshake hug"></msg>
+  <msg name="handshake hugged"></msg>
+  <msg name="Give % a handshake hug"></msg>
+  <msg name="%1 gave %2 a handshake hug"></msg>
+  <msg name="% gave you a handshake hug"></msg>
+
+
+  <msg name="patty cake"></msg>
+  <msg name="played patty cake"></msg>
+  <msg name="Play patty cake with %"></msg>
+  <msg name="%1 played patty cake with %2"></msg>
+  <msg name="% played patty cake with you"></msg>
+
+
+
+  <msg name="tickle"></msg>
+  <msg name="tickled"></msg>
+  <msg name="Tickle %"></msg>
+  <msg name="%1 tickled %2"></msg>
+  <msg name="% tickled you"></msg>
+
+
+
+  <msg name="wave"></msg>
+  <msg name="waved at"></msg>
+  <msg name="Wave at %"></msg>
+  <msg name="%1 waved at %2"></msg>
+  <msg name="% waved at you"></msg>
+
+
+
+
+  <msg name="bump hips"></msg>
+  <msg name="bumped hips"></msg>
+  <msg name="Bump hips with %"></msg>
+  <msg name="%1 bumped hips with %2"></msg>
+  <msg name="% bumped hips with you"></msg>
+
+
+
+
+  <msg name="idolize"></msg>
+  <msg name="idolized"></msg>
+  <msg name="Idolize %"> %</msg>
+  <msg name="%1 idolized %2"></msg>
+  <msg name="% idolized you"></msg>
+
+
+
+  <msg name="kick"></msg>
+  <msg name="kicked"></msg>
+  <msg name="Give % a kick"></msg>
+  <msg name="%1 kicked %2"></msg>
+  <msg name="% kicked you"></msg>
+
+
+
+  <msg name="mock"></msg>
+  <msg name="mocked"></msg>
+  <msg name="Mock %"></msg>
+  <msg name="%1 mocked %2"></msg>
+  <msg name="% mocked you"></msg>
+
+
+
+
+  <msg name="poke"></msg>
+  <msg name="poked"></msg>
+  <msg name="Give % a poke"></msg>
+  <msg name="%1 poked %2"></msg>
+  <msg name="% poked you"></msg>
+
+
+  <msg name="punch"></msg>
+  <msg name="punched"></msg>
+  <msg name="Punch %"></msg>
+  <msg name="%1 punched %2"></msg>
+  <msg name="% punched you"></msg>
+
+
+  <msg name="slap butt"></msg>
+  <msg name="slapped"></msg>
+  <msg name="Slap %'s butt"></msg>
+  <msg name="%1 slapped %2's butt"></msg>
+  <msg name="% slapped your butt"></msg>
+
+
+
+
+  <msg name="slap face"></msg>
+  <msg name="slapped"></msg>
+  <msg name="Slap %'s face"></msg>
+  <msg name="%1 slapped %2's face"></msg>
+  <msg name="% slapped your face"></msg>
+
+
+
+  <msg name="jam on guitar"></msg>
+  <msg name="jammed"></msg>
+  <msg name="Jam on guitars with %"></msg>
+  <msg name="%1 jammed with %2"></msg>
+  <msg name="% jammed with you"></msg>
+
+
+  <msg name="Rock Star"></msg>
+  <msg name="rock stars"></msg>
+  <msg name="Rock out with %"></msg>
+  <msg name="%1 and %2 rocked out"></msg>
+  <msg name="%1 and %2 are rock stars"></msg>
+  <msg name="You and % are rock stars"></msg>
+
+
+  <msg name="Guitar Hero"></msg>
+  <msg name="guitar heroes"></msg>
+  <msg name="Play guitar hero with %"></msg>
+  <msg name="%1 and %2 played guitar hero"></msg>
+  <msg name="You and % played guitar hero"></msg>
+
+
+  <msg name="serenade"></msg>
+  <msg name="serenaded"></msg>
+  <msg name="Serenade %"></msg>
+  <msg name="%1 serenaded %2"></msg>
+  <msg name="% serenaded you"></msg>
+
+
+
+  <msg name="race scooters"></msg>
+  <msg name="raced scooters"></msg>
+  <msg name="Race %"></msg>
+  <msg name="%1 raced %2"></msg>
+  <msg name="% raced you"></msg>
+  <msg name="% raced you and won!"></msg>
+
+
+  <msg name="ride scooters"></msg>
+  <msg name="rode scooters"></msg>
+  <msg name="Ride scooters with %"></msg>
+  <msg name="%1 rode scooters with %2"></msg>
+  <msg name="% rode scooters with you"></msg>
+
+
+
+  <msg name="give a rose"></msg>
+  <msg name="gave a rose"></msg>
+  <msg name="Give % a rose"></msg>
+  <msg name="%1 gave a rose to %2"></msg>
+  <msg name="% gave you a rose"></msg>
+
+
+  <msg name="add me as a friend"></msg>
+  <msg name="wants to add"></msg>
+  <msg name="Add % as a friend"></msg>
+  <msg name="%1 wants to add %2 as a friend"></msg>
+  <msg name="% wants to add you as a friend"></msg>
+
+
+
+  <msg name="chat"></msg>
+  <msg name="chatted"></msg>
+  <msg name="Chat with %"></msg>
+  <msg name="%1 chatted with %2"></msg>
+  <msg name="% chatted with you"></msg>
+
+
+  <msg name="complain"></msg>
+  <msg name="complained"></msg>
+  <msg name="Complain to %"></msg>
+  <msg name="%1 complained to %2"></msg>
+  <msg name="% complained to you"></msg>
+
+
+
+  <msg name="console"></msg>
+  <msg name="consoled"></msg>
+  <msg name="Console %"></msg>
+  <msg name="%1 consoled %2"></msg>
+  <msg name="% consoled you"></msg>
+
+
+  <msg name="comfort"></msg>
+  <msg name="comforted"></msg>
+  <msg name="Comfort %"></msg>
+  <msg name="%1 comforted %2"></msg>
+  <msg name="% comforted you"></msg-->
+
+
+</messagebundle>

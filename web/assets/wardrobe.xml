@@ -1,0 +1,142 @@
+<wardrobe>
+    <option name="Head Color">
+        <color path="Head;Material;Head;Head" id="hdc"/>
+    </option>
+    <option name="Body Color">
+        <color path="Body;Material;Skin;Body" id="bdc"/>
+    </option>
+    <option name="Hair">
+        <itemGroup path="Hair;HeadTop" id="hrt"/>
+    </option>
+    <option name="Hair Color">
+        <color path="Hair;Material;Hair;Hair" id="hrc"/>
+        <texture path="Hair;Material;HairPattern" id="hpt"/>
+        <color path="Hair;Material;HairPatternColor;BlankClip" id="hpc"/>
+    </option>
+    <option name="Hair Streak">
+        <texture path="Hair;Material;HairPattern2" id="hpt2"/>
+        <color path="Hair;Material;HairPattern2Color;BlankClip" id="hpc2"/>
+    </option>    
+    <option name="Shaved Hair">
+        <texture path="Hair_Shave;Material;Hair" id="hst"/>
+        <color path="Hair_Shave;Material;HairColor;BlankClip" id="hsc"/>
+    </option>
+    <option name="Cap">
+        <color path="BCap;Material;BCap;BCap" id="cpc"/>
+        <color path="BCap;Material;BCapHair;BCap_Hair" id="chc"/>
+        <texture path="BCap;Material;BCapPattern1" id="cp1"/>
+        <color path="BCap;Material;BCapPatternColor1;BlankClip" id="cp2"/>
+    </option>
+    <option name="Cap 2">
+        <texture path="BCap;Material;BCapPattern2" id="cp3"/>
+        <color path="BCap;Material;BCapPatternColor2;BlankClip" id="cp4"/>
+    </option>
+    <option name="Eyes">
+        <texture path="Head;Material;Eyes" id="eyt"/>
+        <color path="Head;Material;EyesColor;BlankClip" id="eyc"/>
+    </option>
+    <option name="Eye Shadow">
+        <texture path="Head;Material;EyeShadow" id="est"/>
+        <color path="Head;Material;EyeShadowColor;BlankClip" id="esc"/>
+    </option>
+    <option name="Freckles">
+        <texture path="Head;Material;Spot" id="spo"/>
+        <color path="Head;Material;SpotColor;BlankClip" id="spr"/>
+    </option>
+    <option name="Mustache">
+        <texture path="Head;Material;Mustache" id="mst"/>
+        <texture path="Head;Material;Beard" id="mbt"/>
+        <color path="Head;Material;BeardColor;BlankClip" id="mbc"/>
+    </option>
+    <option name="5 O'Clock">
+        <texture path="Head;Material;5OClock" id="5ct"/>
+    </option>
+    <option name="Glasses">
+        <texture path="Head;Material;Glas" id="glt"/>
+        <color path="Head;Material;GlasColor;BlankClip" id="glc"/>
+    </option>
+    <option name="Mask">
+        <texture path="Head;Material;Mask" id="mkt"/>
+        <color path="Head;Material;MaskColor;BlankClip" id="mkc"/>
+    </option>
+    <option name="Shirt">
+        <texture path="Body;Material;ShrtLength" id="sht"/>
+        <color path="Body;Material;ShrtColor;BlankClip" id="shc"/>
+        <texture path="Body;Material;ShrtLayer1" id="sl1t"/>
+        <color path="Body;Material;ShrtLayer1Color;BlankClip" id="sl1c"/>
+    </option>
+    <option name="Shirt 2">
+        <texture path="Body;Material;ShrtLayer2" id="sl2t"/>
+        <color path="Body;Material;ShrtLayer2Color;BlankClip" id="sl2c"/>
+    </option>
+    <option name="Pants">
+        <texture path="Body;Material;PantLength" id="plt"/>
+        <color path="Body;Material;PantColor;BlankClip" id="plc"/>
+        <texture path="Body;Material;PantPattern" id="ppt"/>
+        <color path="Body;Material;PantPatternColor;BlankClip" id="ppc"/>
+    </option>
+    <option name="Pants 2">
+        <texture path="Body;Material;PantPattern2" id="ppt2"/>
+        <color path="Body;Material;PantPatternColor2;BlankClip" id="ppc2"/>
+    </option>
+    <option name="Skirt">
+        <itemGroup path="Skrt;Skrt" id="ski"/>
+    </option>
+    <option name="Skirt 2">
+        <color path="Skrt;Material;Skrt;Skrt_Solid" id="skc"/>
+        <texture path="Skrt;Material;SkrtPattern" id="spt"/>
+        <color path="Skrt;Material;SkrtPatternColor;BlankClip" id="spc"/>    
+    </option>
+    <option name="Skirt 3">
+        <texture path="Skrt;Material;SkrtPattern2" id="spt2"/>
+        <color path="Skrt;Material;SkrtPatternColor2;BlankClip" id="spc2"/>
+    </option>    
+    <option name="Belt">
+        <texture path="Body;Material;Belt" id="blt"/>
+        <color path="Body;Material;BeltColor;BlankClip" id="blc"/>
+    </option>
+    <option name="High Belt Pattern">
+        <texture path="Body;Material;BeltRegPattern" id="hbp"/>
+        <color path="Body;Material;BeltPatternColor;BlankClip" id="hbc"/>
+    </option>
+    <option name="Low Belt Pattern">
+        <texture path="Body;Material;BeltLowPattern" id="lbp"/>
+        <color path="Body;Material;BeltPatternColor;BlankClip" id="lbc"/>
+    </option>
+    <option name="Shoes">
+        <texture path="Body;Material;Shoe" id="sst"/>
+        <color path="Body;Material;ShoeColor;BlankClip" id="ssc"/>
+        <texture path="Body;Material;ShoeSole" id="ss1"/>
+        <color path="Body;Material;ShoeSoleColor;BlankClip" id="ss2"/>
+    </option>
+    <option name="Sling Pattern">
+        <texture path="Body;Material;ShoeSlingDesign" id="sd1"/>
+        <color path="Body;Material;ShoeSlingDesignColor;BlankClip" id="sd2"/>
+    </option>    
+    <option name="Shoe Pattern">
+        <texture path="Body;Material;ShoeRegDesign" id="sd3"/>
+        <color path="Body;Material;ShoeRegDesignColor;BlankClip" id="sd4"/>
+        <texture path="Body;Material;ShoeRegLaces" id="sh1"/>
+        <color path="Body;Material;ShoeRegLacesColor;BlankClip" id="sh2"/>
+    </option>
+    <option name="Boot Pattern">
+        <texture path="Body;Material;ShoeBootDesign" id="sd5"/>
+        <color path="Body;Material;ShoeBootDesignColor;BlankClip" id="sd6"/>
+        <texture path="Body;Material;ShoeBootLaces" id="sh3"/>
+        <color path="Body;Material;ShoeBootLacesColor;BlankClip" id="sh4"/>
+    </option>
+    <option name="Socks">
+        <texture path="Body;Material;SockLength" id="sot"/>
+        <color path="Body;Material;SockColor;BlankClip" id="soc"/>
+        <texture path="Body;Material;SockPattern" id="sopt"/>
+        <color path="Body;Material;SockPatternColor;BlankClip" id="sopc"/>
+    </option>
+    <option name="Gloves">
+        <texture path="Body;Material;Glve" id="glvt"/>
+        <color path="Body;Material;GlveColor;BlankClip" id="glvc"/>
+    </option>
+    <option name="Guitar">
+        <color path="Strt;Material;Solid;Strt_Solid" id="gr1"/>
+        <color path="Strt;Material;PickGuard;Strt_PickGuard" id="gr2"/>
+    </option>
+</wardrobe>

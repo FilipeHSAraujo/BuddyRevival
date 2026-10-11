@@ -1,0 +1,801 @@
+<catalog>
+  <animations selected="null"/>
+  <background name="CommentMe" fps="12" materialOption="Tongue" material="CommentMe" topCommentY="50" bottomCommentY="350" font="null" fontLib="null" topText="null" bottomText="null" topFontSize="0" bottomFontSize="0" topFontAlignment="null" bottomFontAlignment="null"/>
+  <materialOptions library="chick.swf">
+    <materialOption name="Head" materialIndex="0">
+      <material name="Material" clipRect="Head Clip Rect">
+        <layer name="Head" textureIndex="0" colorIndex="2">
+          <texture symbol="Head" color="Skin" colorSelection="2"/>
+        </layer>
+        <layer name="Spot" textureIndex="0" colorIndex="2" lockColor="SpotColor" blendMode="multiply">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="2"/>
+          <texture symbol="Spot_Freckles_1" color="ShrtSpectrum" colorSelection="2"/>
+          <texture symbol="Spot_Beauty_1" color="ShrtSpectrum" colorSelection="2"/>
+          <texture symbol="Spot_Beauty_2" color="ShrtSpectrum" colorSelection="2"/>
+        </layer>
+        <layer name="SpotColor" textureIndex="0" colorIndex="2">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="2"/>
+        </layer>
+        <layer name="Mouth" textureIndex="0">
+          <texture symbol="Mouth"/>
+        </layer>
+        <layer name="EyeShadow" textureIndex="0" colorIndex="5" lockColor="EyeShadowColor" blendMode="multiply">
+          <texture symbol="BlankClip" colorSelection="5"/>
+          <texture symbol="EyeShadow_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="EyeShadow_2" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="EyeShadow_3" color="ShrtSpectrum" colorSelection="5"/>
+        </layer>
+        <layer name="EyeShadowColor" textureIndex="0" colorIndex="5">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="5"/>
+        </layer>
+        <layer name="Mask" textureIndex="0" colorIndex="5" lockColor="MaskColor">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Mask_1" color="ShrtSpectrum" colorSelection="2"/>
+          <texture symbol="Mask_2" color="ShrtSpectrum" colorSelection="2"/>
+          <texture symbol="Mask_3" color="ShrtSpectrum" colorSelection="6"/>
+          <texture symbol="Mask_4" color="ShrtSpectrum" colorSelection="29"/>
+          <texture symbol="Mask_5" color="ShrtSpectrum" colorSelection="29"/>
+        </layer>
+        <layer name="MaskColor" textureIndex="0" colorIndex="5">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="5"/>
+        </layer>
+        <layer name="Eyes" textureIndex="5" colorIndex="19" lockColor="EyesColor">
+          <texture symbol="Eyes_Fem" color="Eye" colorSelection="19"/>
+          <texture symbol="Eyes_Male" color="Eye" colorSelection="19"/>
+          <texture symbol="Eyes_Lake" color="Eye" colorSelection="19"/>
+          <texture symbol="Eyes_Rio" color="Eye" colorSelection="19"/>
+          <texture symbol="Eyes_Goth" color="Eye" colorSelection="19"/>
+          <texture symbol="Eyes_Azn1" color="Eye" colorSelection="19"/>
+          <texture symbol="Eyes_Azn2" color="Eye" colorSelection="19"/>
+        </layer>
+        <layer name="EyesColor" textureIndex="0" colorIndex="19">
+          <texture symbol="BlankClip" color="Eye" colorSelection="19"/>
+        </layer>
+        <layer name="Brows" textureIndex="2">
+          <texture symbol="BlankClip"/>
+          <texture symbol="BlankClip"/>
+          <texture symbol="BlankClip"/>
+        </layer>
+        <layer name="5OClock" textureIndex="0" blendMode="normal" colorIndex="3">
+          <texture symbol="BlankClip"/>
+          <texture symbol="Berd_5OClock"/>
+        </layer>
+        <layer name="Glas" textureIndex="0" colorIndex="3" lockColor="GlasColor">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Glas_1" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Glas_2" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Glas_3" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Glas_4" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Glas_5" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Glas_6" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Glas_7" color="ShrtSpectrum" colorSelection="3"/>
+        </layer>
+        <layer name="GlasColor" textureIndex="0" colorIndex="3">
+          <texture symbol="BlankClip" color="Eye" colorSelection="3"/>
+        </layer>
+        <layer name="Mustache" textureIndex="0" lockColor="BeardColor" colorIndex="3">
+          <texture symbol="BlankClip" colorSelection="3" color="ShrtSpectrum"/>
+          <texture symbol="Must_Biker" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Must_FuManchu" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Must_Thick" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Must_Thin" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Must_CatWhiskers" color="ShrtSpectrum" colorSelection="3"/>
+        </layer>
+        <layer name="Beard" textureIndex="0" lockColor="BeardColor" colorIndex="3">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Berd_ChinPatch" colorSelection="3" color="ShrtSpectrum"/>
+          <texture symbol="Berd_Chops" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Berd_Full" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Berd_Goat" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Berd_Lucifer" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Berd_SoulPatch" color="ShrtSpectrum" colorSelection="3"/>
+        </layer>
+        <layer name="BeardColor" textureIndex="0" colorIndex="3">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="3"/>
+        </layer>
+      </material>
+    </materialOption>
+    <materialOption name="Skrt" materialIndex="0">
+      <material name="Material" clipRect="Skrt Clip Rect">
+        <layer name="Skrt" textureIndex="0" colorIndex="5">
+          <texture symbol="Skrt_Solid" color="ShrtSpectrum" colorSelection="5"/>
+        </layer>
+        <layer name="SkrtPattern" textureIndex="3" colorIndex="0" grabMask="Skrt" lockColor="SkrtPatternColor">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="2"/>
+          <texture symbol="Skrt_Plaid" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Skrt_Sport_1" color="ShrtSpectrum" colorSelection="2"/>
+          <texture symbol="Skrt_Sport_2" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="Skrt_Stripe_1" color="ShrtSpectrum" colorSelection="2"/>
+          <texture symbol="Skrt_Stripe_2" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Skrt_Plaid_2" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Skrt_Argyle_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Skrt_Argyle_2" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Skrt_Jester" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Skrt_ChainMail_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Skrt_ChainMail_2" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Skrt_ScaleMail_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Skrt_ScaleMail_2" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Skrt_Diamond_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Skrt_Diamond_2" color="ShrtSpectrum" colorSelection="5"/>
+        </layer>
+        <layer name="SkrtPatternColor" textureIndex="0" colorIndex="0">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="0"/>
+        </layer>
+        <layer name="SkrtPattern2" textureIndex="0" colorIndex="0" grabMask="Skrt" lockColor="SkrtPatternColor2">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="Skrt_Slip_1" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="Skrt_Slip_2" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="Skrt_Slip_3" color="ShrtSpectrum" colorSelection="0"/>
+        </layer>
+        <layer name="SkrtPatternColor2" textureIndex="0" colorIndex="0">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="0"/>
+        </layer>
+      </material>
+    </materialOption>
+    <materialOption name="Body" materialIndex="0">
+      <material name="Material" clipRect="Body Clip Rect">
+        <layer name="Skin" textureIndex="0" colorIndex="3">
+          <texture symbol="Body" color="Skin" colorSelection="3"/>
+        </layer>
+        <layer name="SockLength" textureIndex="0" colorIndex="35" lockColor="SockColor">
+          <texture symbol="Sock_Blank" colorSelection="35">
+            <mask mask="Mask_Blank" maskSelection="Sock_Blank"/>
+          </texture>
+          <texture symbol="Sock_Short" color="ShrtSpectrum" colorSelection="35">
+            <mask mask="Mask_SockShort" maskSelection="Sock_Short"/>
+          </texture>
+          <texture symbol="Sock_Med" color="ShrtSpectrum" colorSelection="35">
+            <mask mask="Mask_SockMed" maskSelection="Sock_Med"/>
+          </texture>
+          <texture symbol="Sock_Long" color="ShrtSpectrum" colorSelection="5">
+            <mask mask="Mask_SockLong" maskSelection="Sock_Long"/>
+          </texture>
+        </layer>
+        <layer name="SockColor" textureIndex="0" colorIndex="35">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="35"/>
+        </layer>
+        <layer name="SockPattern" textureIndex="4" colorIndex="11" lockColor="SockPatternColor" grabMask="SockLength">
+          <texture symbol="Sock_Blank" colorSelection="11" color="ShrtSpectrum"/>
+          <texture symbol="Sock_Jester" color="ShrtSpectrum" colorSelection="4"/>
+          <texture symbol="Sock_Stripe_1" color="ShrtSpectrum" colorSelection="11"/>
+          <texture symbol="Sock_Stripe_2" color="ShrtSpectrum" colorSelection="11"/>
+          <texture symbol="Sock_Stripe_3" color="ShrtSpectrum" colorSelection="11"/>
+          <texture symbol="Sock_Sport_1" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Sock_Sport_2" color="ShrtSpectrum" colorSelection="3"/>
+        </layer>
+        <layer name="SockPatternColor" textureIndex="0" colorIndex="11">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="11"/>
+        </layer>
+        <layer name="SockShadow" textureIndex="0" lockTexture="SockLength" colorIndex="0">
+          <texture symbol="BlankClip"/>
+          <texture symbol="Sock_Short_Shadow"/>
+          <texture symbol="Sock_Med_Shadow"/>
+          <texture symbol="Sock_Long_Shadow"/>
+        </layer>
+        <layer name="PantLength" textureIndex="6" colorIndex="23" lockColor="PantColor">
+          <texture symbol="Pant_Low_Panties" colorSelection="23" color="ShrtSpectrum">
+            <mask mask="Mask_PantLowPanties" maskSelection="Pant_Low_Panties"/>
+          </texture>
+          <texture symbol="Pant_Low_Shorts" colorSelection="23" color="ShrtSpectrum">
+            <mask mask="Mask_PantLowShorts" maskSelection="Pant_Low_Shorts"/>
+          </texture>
+          <texture symbol="Pant_Low_Knickers" colorSelection="22" color="ShrtSpectrum">
+            <mask mask="Mask_PantLowKnickers" maskSelection="Pant_Low_Knickers"/>
+          </texture>
+          <texture symbol="Pant_Low_Long" colorSelection="23" color="ShrtSpectrum">
+            <mask mask="Mask_PantLowLong" maskSelection="Pant_Low_Long"/>
+          </texture>
+          <texture symbol="Pant_High_Panties" colorSelection="23" color="ShrtSpectrum">
+            <mask mask="Mask_PantHighPanties" maskSelection="Pant_High_Panties"/>
+          </texture>
+          <texture symbol="Pant_High_Shorts" colorSelection="23" color="ShrtSpectrum">
+            <mask mask="Mask_PantHighShorts" maskSelection="Pant_High_Shorts"/>
+          </texture>
+          <texture symbol="Pant_High_Knickers" colorSelection="23" color="ShrtSpectrum">
+            <mask mask="Mask_PantHighKnickers" maskSelection="Pant_High_Knickers"/>
+          </texture>
+          <texture symbol="Pant_High_Long" colorSelection="23" color="ShrtSpectrum">
+            <mask mask="Mask_PantHighLong" maskSelection="Pant_High_Long"/>
+          </texture>
+        </layer>
+        <layer name="PantColor" textureIndex="0" colorIndex="23">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="23"/>
+        </layer>
+        <layer name="PantPattern" textureIndex="0" colorIndex="5" lockColor="PantPatternColor" grabMask="PantLength">
+          <texture symbol="Pant_Blank" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Pant_Hero" colorSelection="5" color="ShrtSpectrum"/>
+          <texture symbol="Pant_Sport_1" colorSelection="5" color="ShrtSpectrum"/>
+          <texture symbol="Pant_Sport_2" colorSelection="5" color="ShrtSpectrum"/>
+          <texture symbol="Pant_Stripe_1" colorSelection="5" color="ShrtSpectrum"/>
+          <texture symbol="Pant_Stripe_2" colorSelection="5" color="ShrtSpectrum"/>
+          <texture symbol="Pant_Jester" colorSelection="5" color="ShrtSpectrum"/>
+          <texture symbol="Pant_Fade_1" colorSelection="5" color="ShrtSpectrum"/>
+          <texture symbol="Pant_Fade_2" colorSelection="5" color="ShrtSpectrum"/>
+          <texture symbol="Pant_Gradient_1" colorSelection="5" color="ShrtSpectrum"/>
+          <texture symbol="Pant_Camouflage" colorSelection="5" color="ShrtSpectrum"/>
+          <texture symbol="Pant_ChainMail" colorSelection="5" color="ShrtSpectrum"/>
+          <texture symbol="Pant_ScaleMail" colorSelection="5" color="ShrtSpectrum"/>
+          <texture symbol="Pant_Diamond" colorSelection="5" color="ShrtSpectrum"/>
+        </layer>
+        <layer name="PantPatternColor" textureIndex="0" colorIndex="5">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="5"/>
+        </layer>
+        <layer name="PantPattern2" textureIndex="0" colorIndex="5" lockColor="PantPatternColor2" grabMask="PantLength">
+          <texture symbol="Pant_Blank" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Pant_Lace_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Pant_Buckle_1" colorSelection="5" color="ShrtSpectrum"/>
+          <texture symbol="Pant_Buckle_2" colorSelection="5" color="ShrtSpectrum"/>
+        </layer>
+        <layer name="PantPatternColor2" textureIndex="0" colorIndex="5">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="5"/>
+        </layer>
+        <layer name="PantShadow" textureIndex="6" lockTexture="PantLength" colorIndex="5">
+          <texture symbol="Pant_Low_Panties_Shadow"/>
+          <texture symbol="Pant_Low_Shorts_Shadow"/>
+          <texture symbol="Pant_Low_Knickers_Shadow"/>
+          <texture symbol="Pant_Low_Long_Shadow"/>
+          <texture symbol="Pant_High_Panties_Shadow"/>
+          <texture symbol="Pant_High_Shorts_Shadow"/>
+          <texture symbol="Pant_High_Knickers_Shadow"/>
+          <texture symbol="Pant_High_Long_Shadow"/>
+        </layer>
+        <layer name="ShrtLength" textureIndex="0" colorIndex="0" lockColor="ShrtColor">
+          <texture symbol="Shrt_Tee" color="ShrtSpectrum" colorSelection="0">
+            <mask mask="Mask_Tee" maskSelection="Shrt_Tee"/>
+          </texture>
+          <texture symbol="Shrt_TeeCrop" color="ShrtSpectrum" colorSelection="21">
+            <mask mask="Mask_TeeCrop" maskSelection="Shrt_TeeCrop"/>
+          </texture>
+          <texture symbol="Shrt_TeeLong" color="ShrtSpectrum" colorSelection="0">
+            <mask mask="Mask_TeeLong" maskSelection="Shrt_TeeLong"/>
+          </texture>
+          <texture symbol="Shrt_Tank" color="ShrtSpectrum" colorSelection="6">
+            <mask mask="Mask_Tank" maskSelection="Shrt_Tank"/>
+          </texture>
+          <texture symbol="Shrt_TankCrop" color="ShrtSpectrum" colorSelection="25">
+            <mask mask="Mask_TankCrop" maskSelection="Shrt_TankCrop"/>
+          </texture>
+          <texture symbol="Shrt_Tube" color="ShrtSpectrum" colorSelection="5">
+            <mask mask="Mask_Tube" maskSelection="Shrt_Tube"/>
+          </texture>
+          <texture symbol="Shrt_TeeLongCrop" color="ShrtSpectrum" colorSelection="5">
+            <mask mask="Mask_TeeLongCrop" maskSelection="Shrt_TeeLongCrop"/>
+          </texture>
+          <texture symbol="Shrt_DrShoulderShort" color="ShrtSpectrum" colorSelection="5">
+            <mask mask="Mask_DrShoulderShort" maskSelection="Shrt_DrShoulderShort"/>
+          </texture>
+          <texture symbol="Shrt_DrShoulderLong" color="ShrtSpectrum" colorSelection="5">
+            <mask mask="Mask_DrShoulderLong" maskSelection="Shrt_DrShoulderLong"/>
+          </texture>
+        </layer>
+        <layer name="ShrtColor" textureIndex="0" colorIndex="0">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="0"/>
+        </layer>
+        <layer name="ShrtLayer1" textureIndex="9" colorIndex="23" grabMask="ShrtLength" lockColor="ShrtLayer1Color">
+          <texture symbol="Shrt_Blank" color="ShrtSpectrum" colorSelection="27"/>
+          <texture symbol="Shrt_Plaid" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Shrt_Sport_1" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Shrt_Sport_2" colorSelection="9" color="ShrtSpectrum"/>
+          <texture symbol="Shrt_Sport_3" color="ShrtSpectrum" colorSelection="6"/>
+          <texture symbol="Shrt_Sport_4" color="ShrtSpectrum" colorSelection="27"/>
+          <texture symbol="Shrt_Sport_5" colorSelection="23" color="ShrtSpectrum"/>
+          <texture symbol="Shrt_Sport_6" color="ShrtSpectrum" colorSelection="23"/>
+          <texture symbol="Shrt_Sport_7" color="ShrtSpectrum" colorSelection="22"/>
+          <texture symbol="Shrt_Sport_8" color="ShrtSpectrum" colorSelection="23"/>
+          <texture symbol="Shrt_Stripe_1" color="ShrtSpectrum" colorSelection="1"/>
+          <texture symbol="Shrt_Stripe_2" colorSelection="3" color="ShrtSpectrum"/>
+          <texture symbol="Shrt_Stripe_3" colorSelection="10" color="ShrtSpectrum"/>
+          <texture symbol="Shrt_Jester" colorSelection="5" color="ShrtSpectrum"/>
+          <texture symbol="Shrt_Tie_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shrt_Gradient_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shrt_TankLayered" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shrt_Vest" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shrt_Camouflage" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shrt_Argyle_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shrt_Argyle_2" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shrt_ChainMail_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shrt_ChainMail_2" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shrt_ScaleMail_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shrt_ScaleMail_2" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shrt_Diamond_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shrt_Diamond_2" color="ShrtSpectrum" colorSelection="5"/>
+        </layer>
+        <layer name="ShrtLayer1Color" textureIndex="0" colorIndex="23">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="23"/>
+        </layer>
+        <layer name="ShrtLayer2" textureIndex="8" colorIndex="5" lockColor="ShrtLayer2Color" grabMask="ShrtLength">
+          <texture symbol="Shrt_Blank" colorSelection="23"/>
+          <texture symbol="Shrt_Logo_Anarchy" color="ShrtSpectrum" colorSelection="23"/>
+          <texture symbol="Shrt_Logo_Cancel" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="Shrt_Logo_Flower_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shrt_Logo_Flower_2" colorSelection="9" color="ShrtSpectrum"/>
+          <texture symbol="Shrt_Logo_Heart" color="ShrtSpectrum" colorSelection="10"/>
+          <texture symbol="Shrt_Logo_Nuclear" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="Shrt_Logo_Peace" color="ShrtSpectrum" colorSelection="8"/>
+          <texture symbol="Shrt_Logo_Question" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shrt_Logo_Happy" color="ShrtSpectrum" colorSelection="10"/>
+          <texture symbol="Shrt_Logo_Sad" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="Shrt_Logo_Skull" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="Shrt_V" color="ShrtSpectrum" colorSelection="9"/>
+          <texture symbol="Shrt_SportsCoat" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Shrt_CoatOpen" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Shrt_CardiganTight" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Shrt_Logo_Alien" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Shrt_Logo_FleurDeLis" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Shrt_Logo_Nuclear2" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Shrt_Logo_Skeleton" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Shrt_Logo_Butterfly" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Shrt_Logo_Star" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Shrt_Lace_1" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Shrt_Buckle_1" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Shrt_Buckle_2" color="ShrtSpectrum" colorSelection="3"/>
+        </layer>
+        <layer name="ShrtLayer2Color" textureIndex="0" colorIndex="5">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="5"/>
+        </layer>
+        <layer name="ShrtShadow" textureIndex="0" lockTexture="ShrtLength" colorIndex="0">
+          <texture symbol="Shrt_Tee_Shadow"/>
+          <texture symbol="Shrt_TeeCrop_Shadow"/>
+          <texture symbol="Shrt_TeeLong_Shadow"/>
+          <texture symbol="Shrt_Tank_Shadow"/>
+          <texture symbol="Shrt_TankCrop_Shadow"/>
+          <texture symbol="Shrt_Tube_Shadow"/>
+          <texture symbol="Shrt_TeeLongCrop_Shadow"/>
+          <texture symbol="Shrt_DrShoulderShort_Shadow"/>
+          <texture symbol="Shrt_DrShoulderLong_Shadow"/>
+        </layer>
+        <layer name="Shoe" textureIndex="1" colorIndex="3" lockColor="ShoeColor">
+          <texture symbol="Shoe_Blank" color="ShrtSpectrum" colorSelection="10">
+            <mask mask="Mask_ShoeBlank" maskSelection="Shoe_Blank"/>
+          </texture>
+          <texture symbol="Shoe_FlipFlop" color="ShrtSpectrum" colorSelection="3">
+            <mask mask="Mask_ShoeFlipFlop" maskSelection="Shoe_FlipFlop"/>
+          </texture>
+          <texture symbol="Shoe_Sling_1" color="ShrtSpectrum" colorSelection="3">
+            <mask mask="Mask_ShoeSling1" maskSelection="Shoe_Sling_1"/>
+          </texture>
+          <texture symbol="Shoe_Sling_2" color="ShrtSpectrum" colorSelection="27">
+            <mask mask="Mask_ShoeSling2" maskSelection="Shoe_Sling_2"/>
+          </texture>
+          <texture symbol="Shoe_Reg" color="ShrtSpectrum" colorSelection="3">
+            <mask mask="Mask_ShoeReg" maskSelection="Shoe_Reg"/>
+          </texture>
+          <texture symbol="Shoe_Boot" color="ShrtSpectrum" colorSelection="3">
+            <mask mask="Mask_ShoeBoot" maskSelection="Shoe_Boot"/>
+          </texture>
+        </layer>
+        <layer name="ShoeColor" textureIndex="0" colorIndex="3">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="3"/>
+        </layer>
+        <layer name="ShoeSlingDesign" textureIndex="0" colorIndex="5" grabMask="Shoe" lockColor="ShoeSlingDesignColor">
+          <texture symbol="Shoe_Blank" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shoe_Reg_Sport_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shoe_Reg_Sport_2" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shoe_Reg_Sport_5" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shoe_Reg_Jester_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shoe_Reg_Jester_2" color="ShrtSpectrum" colorSelection="5"/>
+        </layer>
+        <layer name="ShoeSlingDesignColor" textureIndex="0" colorIndex="5">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="5"/>
+        </layer>
+        <layer name="ShoeRegDesign" textureIndex="0" colorIndex="5" grabMask="Shoe" lockColor="ShoeRegDesignColor">
+          <texture symbol="Shoe_Blank" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shoe_Reg_Sport_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shoe_Reg_Sport_2" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shoe_Reg_Sport_3" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shoe_Reg_Sport_4" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shoe_Reg_Sport_5" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shoe_Reg_Jester_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shoe_Reg_Jester_2" color="ShrtSpectrum" colorSelection="5"/>
+        </layer>
+        <layer name="ShoeRegDesignColor" textureIndex="0" colorIndex="5">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="5"/>
+        </layer>
+        <layer name="ShoeBootDesign" textureIndex="0" colorIndex="5" grabMask="Shoe" lockColor="ShoeBootDesignColor">
+          <texture symbol="Shoe_Blank" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shoe_Reg_Sport_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shoe_Reg_Sport_2" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shoe_Reg_Sport_4" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shoe_Reg_Sport_5" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shoe_Boot_Sport_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shoe_Boot_Sport_2" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shoe_Reg_Jester_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shoe_Reg_Jester_2" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Shoe_Boot_Flop" color="ShrtSpectrum" colorSelection="5"/>
+        </layer>
+        <layer name="ShoeBootDesignColor" textureIndex="0" colorIndex="5">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="5"/>
+        </layer>
+        <layer name="ShoeRegLaces" textureIndex="0" colorIndex="0" grabMask="Shoe" lockColor="ShoeRegLacesColor">
+          <texture symbol="Shoe_Blank" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="Shoe_Reg_Laces_Thin" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="Shoe_Reg_Laces_Thick" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="Shoe_Reg_Laces_Velcro" color="ShrtSpectrum" colorSelection="0"/>
+        </layer>
+        <layer name="ShoeRegLacesColor" textureIndex="0" colorIndex="0">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="0"/>
+        </layer>
+        <layer name="ShoeBootLaces" textureIndex="0" colorIndex="0" lockColor="ShoeBootLacesColor">
+          <texture symbol="Shoe_Blank" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="Shoe_Reg_Laces_Thin" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="Shoe_Reg_Laces_Thick" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="Shoe_Boot_Laces_Side" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="Shoe_Reg_Laces_Velcro" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="Shoe_Boot_Buckle_1" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="Shoe_Boot_Buckle_2" color="ShrtSpectrum" colorSelection="0"/>
+        </layer>
+        <layer name="ShoeBootLacesColor" textureIndex="0" colorIndex="0">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="0"/>
+        </layer>
+        <layer name="ShoeSole" textureIndex="0" colorIndex="32" lockColor="ShoeSoleColor">
+          <texture symbol="BlankClip" colorSelection="32"/>
+          <texture symbol="Shoe_Sole" color="ShrtSpectrum" colorSelection="32"/>
+        </layer>
+        <layer name="ShoeSoleColor" textureIndex="0" colorIndex="32">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="32"/>
+        </layer>
+        <layer name="Glve" textureIndex="0" colorIndex="3" lockColor="GlveColor">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Glve_Short" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="Glve_Med" color="ShrtSpectrum" colorSelection="22"/>
+          <texture symbol="Glve_Long" color="ShrtSpectrum" colorSelection="29"/>
+          <texture symbol="Glve_Fngr" color="ShrtSpectrum" colorSelection="29"/>
+          <texture symbol="Glve_Lace" color="ShrtSpectrum" colorSelection="29"/>
+        </layer>
+        <layer name="GlveColor" textureIndex="0" colorIndex="3">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="3"/>
+        </layer>
+        <layer name="GlveShadow" textureIndex="0" lockTexture="Glve" colorIndex="0">
+          <texture symbol="BlankClip"/>
+          <texture symbol="Glve_Short_Shadow"/>
+          <texture symbol="Glve_Med_Shadow"/>
+          <texture symbol="Glve_Long_Shadow"/>
+          <texture symbol="Glve_Short_Shadow"/>
+          <texture symbol="BlankClip"/>
+        </layer>
+        <layer name="Belt" textureIndex="0" colorIndex="3" lockColor="BeltColor">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Belt_Reg" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Belt_Para" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Belt_X" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Belt_Low" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Belt_Low_Para" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Belt_Low_X" color="ShrtSpectrum" colorSelection="3"/>
+        </layer>
+        <layer name="BeltColor" textureIndex="0" colorIndex="3">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="3"/>
+        </layer>
+        <layer name="BeltRegPattern" textureIndex="0" colorIndex="0" lockColor="BeltPatternColor">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="Belt_Reg_Buckle_Military" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Belt_Reg_Buckle_Oval" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Belt_Reg_Buckle_Reg" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Belt_Reg_Buckle_Stud_1" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Belt_Reg_Buckle_Stud_2" color="ShrtSpectrum" colorSelection="3"/>
+        </layer>
+        <layer name="BeltLowPattern" textureIndex="0" colorIndex="0" lockColor="BeltPatternColor">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="Belt_Low_Buckle_Military" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Belt_Low_Buckle_Oval" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Belt_Low_Buckle_Reg" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Belt_Low_Buckle_Stud_1" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Belt_Low_Buckle_Stud_2" color="ShrtSpectrum" colorSelection="3"/>
+        </layer>
+        <layer name="BeltPatternColor" textureIndex="0" colorIndex="0">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="0"/>
+        </layer>
+      </material>
+    </materialOption>
+    <materialOption name="Hair" materialIndex="0">
+      <material name="Material" clipRect="Hair Clip Rect" hasAlpha="true">
+        <layer name="Hair" textureIndex="0" colorIndex="34">
+          <texture symbol="Hair" color="ShrtSpectrum" colorSelection="34"/>
+        </layer>
+        <layer name="HairPattern" textureIndex="0" colorIndex="9" lockColor="HairPatternColor">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="9"/>
+          <texture symbol="Hair_Gradient_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Hair_Gradient_2" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Hair_Stripe_Hor_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Hair_Stripe_Hor_2" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Hair_Stripe_Vert_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Hair_Stripe_Vert_2" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Hair_Spots_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Hair_Spots_2" color="ShrtSpectrum" colorSelection="5"/>
+        </layer>
+        <layer name="HairPatternColor" textureIndex="0" colorIndex="9">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="9"/>
+        </layer>
+        <layer name="HairPattern2" textureIndex="0" colorIndex="5" lockColor="HairPattern2Color">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Hair_Streak_1" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Hair_Streak_2" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Hair_Streak_3" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Hair_Streak_4" color="ShrtSpectrum" colorSelection="5"/>
+          <texture symbol="Hair_Streak_5" color="ShrtSpectrum" colorSelection="5"/>
+        </layer>
+        <layer name="HairPattern2Color" textureIndex="0" colorIndex="5">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="5"/>
+        </layer>
+      </material>
+    </materialOption>
+    <materialOption name="Shadow" materialIndex="0">
+      <material name="Material" clipRect="Shadow Clip Rect" hasAlpha="true">
+        <layer name="Layer1" textureIndex="0">
+          <texture symbol="Shadow"/>
+        </layer>
+      </material>
+    </materialOption>
+    <materialOption name="Hair_Shave" materialIndex="0">
+      <material name="Material" clipRect="Head Clip Rect" hasAlpha="true">
+        <layer name="Hair" textureIndex="4" colorIndex="0" lockColor="HairColor">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="Hair_Shave_Crew" color="ShrtSpectrum" colorSelection="7"/>
+          <texture symbol="Hair_Shave_Bald_1" color="ShrtSpectrum" colorSelection="7"/>
+          <texture symbol="Hair_Shave_Bald_2" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="Hair_Shave_Bald_3" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="Hair_Shave_LandingStrip" color="ShrtSpectrum" colorSelection="7"/>
+        </layer>
+        <layer name="HairColor" textureIndex="0" colorIndex="0">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="0"/>
+        </layer>
+      </material>
+    </materialOption>
+    <materialOption name="BCap" materialIndex="0">
+      <material name="Material" clipRect="BCap Clip Rect" hasAlpha="true">
+        <layer name="BCap" textureIndex="0" colorIndex="5">
+          <texture symbol="BCap" color="ShrtSpectrum" colorSelection="5"/>
+        </layer>
+        <layer name="BCapHair" textureIndex="0" colorIndex="10">
+          <texture symbol="BCap_Hair" color="ShrtSpectrum" colorSelection="10"/>
+        </layer>
+        <layer name="BCapPattern1" textureIndex="0" colorIndex="3" lockColor="BCapPatternColor1">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="3"/>
+          <texture symbol="BCap_Rim" color="ShrtSpectrum" colorSelection="10"/>
+          <texture symbol="BCap_Plaid" color="ShrtSpectrum" colorSelection="10"/>
+          <texture symbol="BCap_Stripe_1" color="ShrtSpectrum" colorSelection="10"/>
+          <texture symbol="BCap_Stripe_2" color="ShrtSpectrum" colorSelection="10"/>
+          <texture symbol="BCap_Camouflage" color="ShrtSpectrum" colorSelection="10"/>
+        </layer>
+        <layer name="BCapPatternColor1" textureIndex="0" colorIndex="3">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="3"/>
+        </layer>
+        <layer name="BCapPattern2" textureIndex="0" colorIndex="0" lockColor="BCapPatternColor2">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="0"/>
+          <texture symbol="BCap_Logo_Alien" color="ShrtSpectrum" colorSelection="10"/>
+          <texture symbol="BCap_Logo_Anarchy" color="ShrtSpectrum" colorSelection="10"/>
+          <texture symbol="BCap_Logo_Butterfly" color="ShrtSpectrum" colorSelection="10"/>
+          <texture symbol="BCap_Logo_Cancel" color="ShrtSpectrum" colorSelection="10"/>
+          <texture symbol="BCap_Logo_FleurDeLis" color="ShrtSpectrum" colorSelection="10"/>
+          <texture symbol="BCap_Logo_Flower_1" color="ShrtSpectrum" colorSelection="10"/>
+          <texture symbol="BCap_Logo_Flower_2" color="ShrtSpectrum" colorSelection="10"/>
+          <texture symbol="BCap_Logo_Happy" color="ShrtSpectrum" colorSelection="10"/>
+          <texture symbol="BCap_Logo_Heart" color="ShrtSpectrum" colorSelection="10"/>
+          <texture symbol="BCap_Logo_Nuclear" color="ShrtSpectrum" colorSelection="10"/>
+          <texture symbol="BCap_Logo_Nuclear2" color="ShrtSpectrum" colorSelection="10"/>
+          <texture symbol="BCap_Logo_Peace" color="ShrtSpectrum" colorSelection="10"/>
+          <texture symbol="BCap_Logo_Question" color="ShrtSpectrum" colorSelection="10"/>
+          <texture symbol="BCap_Logo_Sad" color="ShrtSpectrum" colorSelection="10"/>
+          <texture symbol="BCap_Logo_Skull" color="ShrtSpectrum" colorSelection="10"/>
+          <texture symbol="BCap_Logo_Star" color="ShrtSpectrum" colorSelection="10"/>
+        </layer>
+        <layer name="BCapPatternColor2" textureIndex="0" colorIndex="0">
+          <texture symbol="BlankClip" color="ShrtSpectrum" colorSelection="0"/>
+        </layer>
+      </material>
+    </materialOption>
+    <materialOption name="MHelm" materialIndex="0">
+      <material name="Material" clipRect="Helmet Clip Rect" hasAlpha="true">
+        <layer name="MHelm" textureIndex="0" colorIndex="5">
+          <texture symbol="MHelm" color="ShrtSpectrum" colorSelection="5"/>
+        </layer>
+        <layer name="MHelmHair" textureIndex="0" colorIndex="10">
+          <texture symbol="MHelm_Hair" colorSelection="10" color="ShrtSpectrum"/>
+        </layer>
+      </material>
+    </materialOption>
+    <materialOption name="Rose" materialIndex="0">
+      <material name="Material" clipRect="Rose Clip Rect">
+        <layer name="Layer1" textureIndex="0">
+          <texture symbol="Rose"/>
+        </layer>
+      </material>
+    </materialOption>
+    <materialOption name="Mic" materialIndex="0">
+      <material name="Material" clipRect="Mic Clip Rect">
+        <layer name="Layer1" textureIndex="0">
+          <texture symbol="Mic"/>
+        </layer>
+      </material>
+    </materialOption>
+    <materialOption name="Strt" materialIndex="0">
+      <material name="Material" clipRect="Strt Clip Rect">
+        <layer name="Solid" textureIndex="0" colorIndex="5">
+          <texture symbol="Strt_Solid" color="ShrtSpectrum" colorSelection="5"/>
+        </layer>
+        <layer name="PickGuard" textureIndex="0" colorIndex="0">
+          <texture symbol="Strt_PickGuard" color="ShrtSpectrum" colorSelection="0"/>
+        </layer>
+        <layer name="Misc" textureIndex="0">
+          <texture symbol="Strt_Misc"/>
+        </layer>
+      </material>
+    </materialOption>
+    <materialOption name="Vesp" materialIndex="0">
+      <material name="Material" clipRect="Vesp Clip Rect">
+        <layer name="Layer1" textureIndex="0">
+          <texture symbol="Vesp_Base"/>
+        </layer>
+        <layer name="Layer2" textureIndex="0" blendMode="overlay" colorIndex="5">
+          <texture symbol="Vesp_Color" color="ShrtSpectrum" colorSelection="5"/>
+        </layer>
+      </material>
+    </materialOption>
+    <materialOption name="VespTire" materialIndex="0">
+      <material name="Material" clipRect="VespTire Clip Rect">
+        <layer name="Layer1" textureIndex="0">
+          <texture symbol="Vesp_Tire"/>
+        </layer>
+      </material>
+    </materialOption>
+    <materialOption name="Mallet" materialIndex="0">
+      <material name="Material" clipRect="Mallet Clip Rect">
+        <layer name="Layer1" textureIndex="0">
+          <texture symbol="Mallet"/>
+        </layer>
+      </material>
+    </materialOption>
+    <materialOption name="Ball" materialIndex="0">
+      <material name="Material" clipRect="Mic Clip Rect">
+        <layer name="Layer1" textureIndex="0">
+          <texture symbol="Mic"/>
+        </layer>
+      </material>
+    </materialOption>
+    <materialOption name="Sword" materialIndex="0">
+      <material name="Material" clipRect="Sword Clip Rect">
+        <layer name="Layer1" textureIndex="0">
+          <texture symbol="Sword"/>
+        </layer>
+      </material>
+    </materialOption>
+  </materialOptions>
+  <sliderSet>
+    <slider name="Head Size" icon="Widget_Icon_Head_Scale" camera="Cam_Head_34" cameraTarget="IG_Skull">
+      <pickRegion name="Left Head"/>
+      <pickRegion name="Right Head"/>
+      <sliderTarget target="IG_Head" scalex="0.9 1 1.13" scaley="0.9 1 1.13" scalez="0.9 1 1.13"/>
+      <sliderTarget target="IG_Neck" local="true" scalex="1 1 1" scaley="0.9 1 1.13" scalez="0.9 1 1.13"/>
+    </slider>
+  </sliderSet>
+  <group name="Char">
+    <categories>
+      <itemCategory name="Body">
+        <item name="Head" label="Head" alwaysVis="true" visible="false" geo1="Head" forceCulling="false" mat="Head" lightmap1="Head Lightmap"/>
+        <item name="Body" label="Body" alwaysVis="true" visible="false" geo1="Body" mat="Body" lightmap1="Body Lightmap"/>
+        <item name="Shadow" label="Shadow" alwaysVis="true" visible="false" geo1="Shadow" mat="Shadow"/>
+      </itemCategory>
+      <itemCategory name="Skrt">
+        <item name="SkrtNone" label="SkrtNone" alwaysVis="false" visible="false" visGroup="Skrt" geo1="Rose" mat="Rose"/>
+        <item name="Skrt" label="Skrt" alwaysVis="false" visible="false" geo1="Skrt" mat="Skrt" forceCulling="false" cull1="Skrt" lightmap1="Skrt Lightmap" visGroup="Skrt"/>
+        <item name="SkrtLong" label="SkrtLong" alwaysVis="false" visible="false" geo1="SkrtLong" mat="Skrt" forceCulling="false" cull1="SkrtLong" lightmap1="Skrt Lightmap" visGroup="Skrt"/>
+      </itemCategory>
+      <itemCategory name="Hair">
+        <item name="BCap" label="Baseball Cap" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="BCap" forceCulling="false" mat="BCap" cull1="Hair_Cap" lightmap1="BCap Lightmap" cull2="BCap_Hair1"/>
+        <item name="BCap_Hair" label="Baseball Cap With Hair" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="BCap" forceCulling="false" mat="BCap" cull1="Hair_Cap" lightmap1="BCap Lightmap" cull2="BCap_Hair2"/>
+        <item name="SCap" label="Skull Cap" alwaysVis="false" geo1="SCap" visGroup="HeadTop" visible="false" mat="BCap" forceCulling="false" cull1="Hair_Cap" lightmap1="BCap Lightmap" cull2="SCap_Hair1"/>
+        <item name="SCap_Hair" label="Skull Cap With Hair" alwaysVis="false" geo1="SCap" visGroup="HeadTop" visible="true" mat="BCap" forceCulling="false" cull1="Hair_Cap" lightmap1="BCap Lightmap" cull2="SCap_Hair2"/>
+        <item name="Hair_Simple_FlatTop" label="Hair_Simple_FlatTop" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Simple_FlatTop" forceCulling="false" mat="Hair" cull1="Hair_1" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Simple_LeftBob" label="Hair_Simple_LeftBob" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Simple_LeftBob" forceCulling="false" mat="Hair" cull1="Hair_3" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Simple_MidBob" label="Hair_Simple_MidBob" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Simple_MidBob" forceCulling="false" mat="Hair" cull1="Hair_3" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Simple_PartMid" label="Hair_Simple_PartMid" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Simple_PartMid" forceCulling="false" mat="Hair" cull1="Hair_1" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Simple_PartSide" label="Hair_Simple_PartSide" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Simple_PartSide" forceCulling="false" mat="Hair" cull1="Hair_1" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Simple_PartSideShort" label="Hair_Simple_PartSideShort" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Simple_PartSideShort" forceCulling="false" mat="Hair" cull1="Hair_1" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Simple_RiceBowl" label="Hair_Simple_RiceBowl" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Simple_RiceBowl" forceCulling="false" mat="Hair" cull1="Hair_1" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Simple_ScruffySide" label="Hair_Simple_ScruffySide" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Simple_ScruffySide" forceCulling="false" mat="Hair" cull1="Hair_3" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Simple_SlickBack" label="Hair_Simple_SlickBack" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Simple_SlickBack" forceCulling="false" mat="Hair" cull1="Hair_1" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Simple_Twiggy" label="Hair_Simple_Twiggy" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Simple_Twiggy" forceCulling="false" mat="Hair" cull1="Hair_1" lightmap1="Hair Lightmap"/>
+        <item name="Hair_CrispBob_PartMid" label="Hair_CrispBob_PartMid" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_CrispBob_Main" mat="Hair" cull1="Hair_3" forceCulling="false" geo2="Hair_CrispBob_PartMid" lightmap1="Hair Lightmap" lightmap2="Hair Lightmap"/>
+        <item name="Hair_Reg_MainShort_PartMid" label="Hair_Reg_MainShort_PartMid" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Reg_MainShort" mat="Hair" cull1="Hair_3" geo2="Hair_Reg_PartMid" lightmap1="Hair Lightmap" lightmap2="Hair Lightmap"/>
+        <item name="Hair_Reg_MainShort_PartMidEars" label="Hair_Reg_MainShort_PartMidEars" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Reg_MainShort" mat="Hair" cull1="Hair_1" geo2="Hair_Reg_PartMidEars" lightmap1="Hair Lightmap" lightmap2="Hair Lightmap"/>
+        <item name="Hair_Reg_MainShort_PartRice" label="Hair_Reg_MainShort_PartRice" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Reg_MainShort" mat="Hair" cull1="Hair_1" geo2="Hair_Reg_PartRice" lightmap1="Hair Lightmap" lightmap2="Hair Lightmap"/>
+        <item name="Hair_Reg_MainShort_PartSide" label="Hair_Reg_MainShort_PartSide" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Reg_MainShort" mat="Hair" cull1="Hair_3" geo2="Hair_Reg_PartSide" lightmap1="Hair Lightmap" forceCulling="false" lightmap2="Hair Lightmap"/>
+        <item name="Hair_Reg_MainShort_PartSweepLeft" label="Hair_Reg_MainShort_PartSweepLeft" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Reg_MainShort" mat="Hair" cull1="Hair_3" geo2="Hair_Reg_PartSweepLeft" lightmap1="Hair Lightmap" lightmap2="Hair Lightmap"/>
+        <item name="Hair_Reg_MainMed_PartMid" label="Hair_Reg_MainMed_PartMid" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Reg_MainMed" mat="Hair" cull1="Hair_3" geo2="Hair_Reg_PartMid" lightmap1="Hair Lightmap" lightmap2="Hair Lightmap"/>
+        <item name="Hair_Reg_MainMed_PartMidEars" label="Hair_Reg_MainMed_PartMidEars" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Reg_MainMed" mat="Hair" cull1="Hair_1" geo2="Hair_Reg_PartMidEars" lightmap1="Hair Lightmap" lightmap2="Hair Lightmap"/>
+        <item name="Hair_Reg_MainMed_PartRice" label="Hair_Reg_MainMed_PartRice" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Reg_MainMed" mat="Hair" cull1="Hair_1" geo2="Hair_Reg_PartRice" lightmap1="Hair Lightmap" lightmap2="Hair Lightmap"/>
+        <item name="Hair_Reg_MainMed_PartSide" label="Hair_Reg_MainMed_PartSide" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Reg_MainMed" mat="Hair" cull1="Hair_3" geo2="Hair_Reg_PartSide" lightmap1="Hair Lightmap" lightmap2="Hair Lightmap"/>
+        <item name="Hair_Reg_MainMed_PartSweepLeft" label="Hair_Reg_MainMed_PartSweepLeft" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Reg_MainMed" mat="Hair" cull1="Hair_3" geo2="Hair_Reg_PartSweepLeft" lightmap1="Hair Lightmap" lightmap2="Hair Lightmap"/>
+        <item name="Hair_Tied_Pig" label="Hair_Tied_Pig" alwaysVis="false" visible="false" geo1="Hair_Tied_MainPig" mat="Hair" cull1="Hair_1" visGroup="HeadTop" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Tied_PigMid" label="Hair_Tied_PigMid" alwaysVis="false" visible="false" geo1="Hair_Tied_MainPig" geo2="Hair_Tied_PartMid" mat="Hair" cull1="Hair_1" visGroup="HeadTop" lightmap1="Hair Lightmap" lightmap2="Hair Lightmap"/>
+        <item name="Hair_Tied_PigRice" label="Hair_Tied_PigRice" alwaysVis="false" visible="false" geo1="Hair_Tied_MainPig" geo2="Hair_Tied_PartRice" mat="Hair" cull1="Hair_1" visGroup="HeadTop" lightmap1="Hair Lightmap" lightmap2="Hair Lightmap"/>
+        <item name="Hair_Tied_Pony" label="Hair_Tied_Pony" alwaysVis="false" visible="false" geo1="Hair_Tied_MainPony" mat="Hair" cull1="Hair_1" visGroup="HeadTop" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Tied_PonyMid" label="Hair_Tied_PonyMid" alwaysVis="false" visible="false" geo1="Hair_Tied_MainPony" geo2="Hair_Tied_PartMid" mat="Hair" cull1="Hair_1" visGroup="HeadTop" lightmap1="Hair Lightmap" lightmap2="Hair Lightmap"/>
+        <item name="Hair_Tied_PonyRice" label="Hair_Tied_PonyRice" alwaysVis="false" visible="false" geo1="Hair_Tied_MainPony" geo2="Hair_Tied_PartRice" mat="Hair" cull1="Hair_1" visGroup="HeadTop" lightmap1="Hair Lightmap" lightmap2="Hair Lightmap"/>
+        <item name="Hair_Shave" label="Hair_Shave" alwaysVis="false" geo1="Hair_Shave" mat="Hair_Shave" visGroup="HeadTop" visible="false"/>
+        <item name="Hair_Simple_EmoMop" label="Hair_Simple_EmoMop" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Simple_EmoMop" mat="Hair" cull1="Hair_3" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Simple_EmoMopEars" label="Hair_Simple_EmoMopEars" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Simple_EmoMopEars" mat="Hair" cull1="Hair_1" lightmap1="Hair Lightmap" forceCulling="false"/>
+        <item name="Hair_Simple_EmoMopLong" label="Hair_Simple_EmoMopLong" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Simple_EmoMopLong" mat="Hair" cull1="Hair_3" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Simple_FauxHawk" label="Hair_Simple_FauxHawk" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Simple_FauxHawk" mat="Hair" cull1="Hair_1" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Simple_LayeredTips" label="Hair_Simple_LayeredTips" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Simple_LayeredTips" mat="Hair" cull1="Hair_3" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Simple_LayeredTipsLong" label="Hair_Simple_LayeredTipsLong" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Simple_LayeredTipsLong" mat="Hair" cull1="Hair_3" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Simple_Mohawk" label="Hair_Simple_Mohawk" alwaysVis="false" visible="false" visGroup="HeadTop" geo1="Hair_Simple_Mohawk" mat="Hair" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Simple_MohawkSpike" label="Hair_Simple_MohawkSpike" alwaysVis="false" visible="false" geo1="Hair_Simple_MohawkSpike" mat="Hair" visGroup="HeadTop" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Simple_PartMidOilyLong" label="Hair_Simple_PartMidOilyLong" alwaysVis="false" visible="false" geo1="Hair_Simple_PartMidOilyLong" mat="Hair" cull1="Hair_3" visGroup="HeadTop" lightmap1="Hair Lightmap" forceCulling="false"/>
+        <item name="Hair_Simple_PartMidOilyLongEars" label="Hair_Simple_PartMidOilyLongEars" alwaysVis="false" visible="false" geo1="Hair_Simple_PartMidOilyLongEars" mat="Hair" cull1="Hair_1" visGroup="HeadTop" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Simple_PartSideOilyLong" label="Hair_Simple_PartSideOilyLong" alwaysVis="false" visible="false" geo1="Hair_Simple_PartSideOilyLong" mat="Hair" cull1="Hair_3" visGroup="HeadTop" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Simple_Porcupine" label="Hair_Simple_Porcupine" alwaysVis="false" visible="false" geo1="Hair_Simple_Porcupine" mat="Hair" cull1="Hair_3" visGroup="HeadTop" lightmap1="Hair Lightmap" forceCulling="false"/>
+        <item name="Hair_Simple_Spike" label="Hair_Simple_Spike" alwaysVis="false" visible="false" geo1="Hair_Simple_Spike" mat="Hair" cull1="Hair_1" visGroup="HeadTop" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Simple_SpikeBack" label="Hair_Simple_SpikeBack" alwaysVis="false" visible="false" geo1="Hair_Simple_SpikeBack" mat="Hair" cull1="Hair_1" visGroup="HeadTop" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Simple_SpikeLong" label="Hair_Simple_SpikeLong" alwaysVis="false" visible="false" geo1="Hair_Simple_SpikeLong" mat="Hair" cull1="Hair_1" visGroup="HeadTop" lightmap1="Hair Lightmap"/>
+        <item name="Hair_Simple_PartMidOilyPony" label="Hair_Simple_PartMidOilyPony" alwaysVis="false" visible="false" geo1="Hair_Simple_PartMidOilyPony" mat="Hair" cull1="Hair_1" visGroup="HeadTop" lightmap1="Hair Lightmap"/>
+      </itemCategory>
+      <itemCategory name="Props">
+        <item name="Strat" label="Strat" alwaysVis="false" geo1="Strat" mat="Strt" visible="true"/>
+        <item name="Rose" label="Rose" alwaysVis="false" geo1="Rose" visible="true" mat="Rose"/>
+        <item name="Mic" label="Mic" alwaysVis="false" geo1="Mic" mat="Mic" visible="true"/>
+        <item name="Sword" label="Sword" alwaysVis="false" geo1="Sword" mat="Sword" visible="true"/>
+        <item name="Mallet" label="Mallet" alwaysVis="false" geo1="Mallet" mat="Mallet" visible="false"/>
+        <item name="Ball" label="Ball" alwaysVis="false" geo1="Ball" mat="Ball" visible="false"/>
+        <item name="Vesp_Body" label="Vesp_Body" alwaysVis="false" geo1="Vesp_Body" mat="Vesp" visible="false"/>
+        <item name="Vesp_Tire_Main" label="Vesp_Tire_Main" alwaysVis="false" geo1="Vesp_Tire_2" mat="VespTire" visible="false"/>
+        <item name="Vesp_Tire_Side" label="Vesp_Tire_Side" alwaysVis="false" geo1="Vesp_Tire_3" mat="VespTire" visible="false"/>
+        <item name="Vesp_SideCar" label="Vesp_SideCar" alwaysVis="false" geo1="Vesp_SideCar" mat="Vesp" visible="false"/>
+      </itemCategory>
+    </categories>
+    <cullGroups>
+      <cullGroup name="Skrt">
+        <region name="Body_Skrt"/>
+      </cullGroup>
+      <cullGroup name="SkrtLong">
+        <region name="Body_Skrt"/>
+        <region name="Body_SkrtLong"/>
+      </cullGroup>
+      <cullGroup name="Hair_1">
+        <region name="Head_Skull1"/>
+        <region name="Head_Skull5"/>
+      </cullGroup>
+      <cullGroup name="Hair_2">
+        <region name="Head_Skull1"/>
+        <region name="Head_Skull4"/>
+        <region name="Head_Skull5"/>
+        <region name="Head_Ears"/>
+      </cullGroup>
+      <cullGroup name="Hair_3">
+        <region name="Head_Skull1"/>
+        <region name="Head_Skull5"/>
+        <region name="Head_Ears"/>
+      </cullGroup>
+      <cullGroup name="Hair_4">
+        <region name="Head_Skull1"/>
+        <region name="Head_Skull2"/>
+      </cullGroup>
+      <cullGroup name="Hair_Cap">
+        <region name="Head_Skull1"/>
+        <region name="Head_Skull2"/>
+        <region name="Head_Skull4"/>
+        <region name="Head_Skull5"/>
+      </cullGroup>
+      <cullGroup name="SCap_Hair1">
+        <region name="BCap_SCapHair2"/>
+      </cullGroup>
+      <cullGroup name="BCap_Hair1">
+        <region name="BCap_Hair"/>
+      </cullGroup>
+      <cullGroup name="BCap_Hair2">
+        <region name="BCap_Hole"/>
+      </cullGroup>
+      <cullGroup name="SCap_Hair2">
+        <region name="BCap_SCapHair1"/>
+      </cullGroup>
+    </cullGroups>
+    <cullOptions/>
+    <cullGroup name="SCap" isDefault="false"/>
+  </group>
+  <presets>
+    <sliderPresetSet/>
+    <geoPresetSet/>
+    <materialPresetSet/>
+    <presetSet/>
+    <presetOfPresetsSet/>
+  </presets>
+</catalog>
