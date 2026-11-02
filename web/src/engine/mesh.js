@@ -50,11 +50,15 @@ export class Mesh {
       const [ua, va] = uv(a);
       const [ub, vb] = uv(b);
       const [uc, vc] = uv(c);
+      // Some meshes (caps, a few hair styles) have faces whose UVs collapse to a
+      // line or point. Inverting that matrix yields NaN, so map the face onto the
+      // single texel at its first UV instead.
+      const degenerate = Math.abs((ub - ua) * (vc - va) - (uc - ua) * (vb - va)) < 1e-9;
       this.triangles.push({
         a: this.screen[a],
         b: this.screen[b],
         c: this.screen[c],
-        textureToTriangle: new DOMMatrix([ub - ua, vb - va, uc - ua, vc - va, ua, va]).invertSelf(),
+        textureToTriangle: new DOMMatrix(degenerate ? [1, 0, 0, 1, ua, va] : [ub - ua, vb - va, uc - ua, vc - va, ua, va]).invertSelf(),
         region: this.faceRegions?.[i / 3],
         depth: 0,
         bitmap: null,

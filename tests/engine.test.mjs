@@ -52,6 +52,12 @@ for (const [key, expected] of Object.entries(EXPECTED)) {
   assert.deepEqual(signature(renderer.queue), expected, key);
 }
 
+// Faces with collapsed UVs must not produce NaN texture matrices (issue #2).
+pack.scene.find(node => {
+  for (const t of node.mesh?.triangles ?? []) assert.ok([t.textureToTriangle.a, t.textureToTriangle.d, t.textureToTriangle.e].every(Number.isFinite), node.name);
+  return false;
+});
+
 const look = await decodeLook(DEFAULT_LOOK_CODE);
 assert.equal(Object.keys(look).length, 76);
 assert.deepEqual(await decodeLook(await encodeLook({ ...look, hrt: 7 })), { ...look, hrt: 7 });
