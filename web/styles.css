@@ -35,3 +35,19 @@ aside { background: var(--panel); border-radius: 8px; box-shadow: 0 1px 4px #000
 .action img { width: 40px; height: 40px; object-fit: contain; }
 .action[aria-pressed=true] { outline: 2px solid var(--accent); }
 .loading { text-align: center; color: var(--muted); padding: 40px; }
+#export { margin-top: 8px; }
+dialog { border: 0; border-radius: 8px; box-shadow: 0 8px 32px #0004; padding: 16px; width: min(440px, calc(100vw - 32px)); max-height: calc(100vh - 32px); color: var(--ink); }
+dialog::backdrop { background: #0006; }
+dialog h2 { font-size: 16px; margin: 0 0 12px; }
+dialog fieldset { border: 1px solid var(--line); border-radius: 6px; margin: 0 0 10px; padding: 6px 10px 8px; }
+dialog legend { padding: 0 4px; color: var(--muted); }
+.choice { display: flex; align-items: baseline; gap: 6px; padding: 3px 0; cursor: pointer; }
+.choice small { color: var(--muted); }
+dialog progress { width: 100%; margin: 6px 0; }
+.export-status { color: var(--muted); font-size: 12px; min-height: 1.4em; margin: 6px 0; overflow-wrap: anywhere; }
+.export-preview { display: flex; justify-content: center; }
+.export-preview img, .export-preview video { max-width: 100%; max-height: 50vh; border-radius: 6px; box-shadow: 0 1px 4px #0002; margin-bottom: 10px; }
+dialog .toolbar { margin: 0; }
+.button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.button:disabled { opacity: .5; cursor: default; }
+a.button { text-decoration: none; display: inline-block; }
