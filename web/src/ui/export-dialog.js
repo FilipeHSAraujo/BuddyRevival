@@ -6,7 +6,7 @@ const FORMATS = [
   { value: 'gif', label: 'GIF', hint: 'Discord, X, WhatsApp' },
 ];
 const ASPECTS = [
-  { value: 'portrait', label: 'Vertical 9:16', hint: 'Reels, Stories, TikTok' },
+  { value: 'portrait', label: 'Vertical 9:16', hint: 'Stories, WhatsApp Status, Reels, TikTok' },
   { value: 'square', label: 'Square 1:1', hint: 'Feed' },
   { value: 'landscape', label: 'Landscape 4:3', hint: 'Like the screen' },
 ];
@@ -26,14 +26,29 @@ function radioGroup(name, legend, choices, selected) {
       element('small', { textContent: t(choice.hint) }))));
 }
 
+const field = (label, control) => element('label', { className: 'field' }, element('span', { textContent: t(label) }), control);
+
 /**
- * dialog: an empty <dialog>. getSource() returns the animation to export, or null.
+ * dialog: an empty <dialog>.
+ * source() returns the animation on screen, or null.
  * pause(paused) stops and restarts the live preview while frames are being rendered.
+ * rename({ me, friend }) is called when the user types a name.
  */
-export function setupExportDialog(dialog, getSource, pause) {
+export function setupExportDialog(dialog, { source: getSource, pause, rename }) {
   const formats = radioGroup('export-format', 'Format', FORMATS, 'mp4');
   const aspects = radioGroup('export-aspect', 'Shape', ASPECTS, 'portrait');
-  const caption = element('input', { type: 'checkbox', checked: true });
+  const myName = element('input', { type: 'text', maxLength: 30, autocomplete: 'nickname', placeholder: t('You') });
+  const friendName = element('input', { type: 'text', maxLength: 30, autocomplete: 'off', placeholder: t('Friend') });
+  const friendField = field('Friend\'s name', friendName);
+  const phrase = element('textarea', { rows: 2, maxLength: 140, placeholder: t('No caption') });
+  const restore = element('button', { className: 'link', type: 'button', textContent: t('Restore phrase'), hidden: true });
+  const words = element('fieldset', {},
+    element('legend', { textContent: t('Text') }),
+    field('Your name', myName),
+    friendField,
+    field('Phrase', phrase),
+    restore);
+  const shareHint = element('p', { className: 'export-hint' });
   const status = element('p', { className: 'export-status', role: 'status' });
   const progress = element('progress', { max: 1, value: 0, hidden: true });
   const preview = element('div', { className: 'export-preview' });
@@ -44,16 +59,40 @@ export function setupExportDialog(dialog, getSource, pause) {
   let file = null;
   let url = null;
   let busy = false;
+  let source = null;
+  let edited = false;
+
+  const typedNames = () => ({ me: myName.value, friend: friendName.value });
+  const refreshPhrase = () => {
+    if (!edited && source) phrase.value = source.describe(typedNames());
+    restore.hidden = !edited;
+  };
+  for (const input of [myName, friendName]) {
+    input.addEventListener('input', () => {
+      rename(typedNames());
+      refreshPhrase();
+    });
+  }
+  phrase.addEventListener('input', () => {
+    edited = true;
+    restore.hidden = false;
+  });
+  restore.onclick = () => {
+    edited = false;
+    refreshPhrase();
+    reset();
+  };
 
   dialog.replaceChildren(
     element('h2', { id: 'export-title', textContent: t('Save animation') }),
     formats,
     aspects,
-    element('label', { className: 'choice' }, caption, element('span', { textContent: t('Include caption') })),
+    words,
     progress,
     status,
-    preview,
     element('div', { className: 'toolbar' }, create, download, share, close),
+    shareHint,
+    preview,
   );
 
   canExportVideo().then(ok => {
@@ -69,12 +108,13 @@ export function setupExportDialog(dialog, getSource, pause) {
     file = url = null;
     preview.replaceChildren();
     download.hidden = share.hidden = true;
-    status.textContent = '';
+    status.textContent = shareHint.textContent = '';
   };
   dialog.addEventListener('change', reset);
+  dialog.addEventListener('input', reset);
 
   create.onclick = async () => {
-    const source = getSource();
+    source = getSource() ?? source;
     if (!source || busy) return;
     reset();
     busy = true;
@@ -87,7 +127,7 @@ export function setupExportDialog(dialog, getSource, pause) {
       file = await exportClip(source, {
         format: formats.querySelector('input:checked').value,
         aspect: aspects.querySelector('input:checked').value,
-        caption: caption.checked,
+        caption: phrase.value.trim(),
         onProgress: value => { progress.value = value; },
       });
       url = URL.createObjectURL(file);
@@ -98,6 +138,9 @@ export function setupExportDialog(dialog, getSource, pause) {
       download.download = file.name;
       download.hidden = false;
       share.hidden = !navigator.canShare?.({ files: [file] });
+      shareHint.textContent = share.hidden
+        ? t('To post on Instagram Stories or WhatsApp Status, open BuddyRevival on your phone.')
+        : t('In the menu, choose Instagram → Stories, or WhatsApp → My status.');
       status.textContent = `${file.name} · ${(file.size / 1024 / 1024).toFixed(1)} MB`;
     } catch (error) {
       console.error(error);
@@ -120,7 +163,13 @@ export function setupExportDialog(dialog, getSource, pause) {
   dialog.addEventListener('cancel', event => { if (busy) event.preventDefault(); });
 
   return () => {
+    source = getSource();
     reset();
+    myName.value = source?.names.me ?? '';
+    friendName.value = source?.names.friend ?? '';
+    friendField.hidden = !source?.hasFriend;
+    edited = false;
+    refreshPhrase();
     dialog.showModal();
   };
 }

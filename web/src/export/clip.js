@@ -52,9 +52,9 @@ function wrap(g, text, maxWidth) {
 
 /**
  * Prepares a canvas that can draw any frame of an animation, framed to fit the output size.
- * source: { scene, camera, frameCount, showFrame(frame), caption }
+ * source: { scene, camera, frameCount, showFrame(frame) }; caption: text drawn under the buddies, '' for none.
  */
-export function createClip(source, { width, height, caption = true, step = 1 }) {
+export function createClip(source, { width, height, caption = '', step = 1 }) {
   const frames = [];
   for (let f = 0; f < source.frameCount; f += step) frames.push(f);
 
@@ -63,7 +63,7 @@ export function createClip(source, { width, height, caption = true, step = 1 }) 
   const unit = Math.min(width, height);
   const captionSize = Math.round(unit * 0.055);
   g.font = `600 ${captionSize}px system-ui, sans-serif`;
-  const lines = caption && source.caption ? wrap(g, source.caption, width * 0.88) : [];
+  const lines = caption.split('\n').flatMap(paragraph => wrap(g, paragraph, width * 0.88));
   const band = lines.length ? lines.length * captionSize * 1.3 + unit * 0.06 : 0;
   const stageHeight = height - band;
 

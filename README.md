@@ -89,7 +89,11 @@ Rows appear and disappear depending on what you are wearing. *Hair Color* is hid
 | Square 1:1 | 480×480 | 1080×1080 | Feed posts |
 | Landscape 4:3 | 640×480 | 1440×1080 | Same shape as the screen |
 
-The GIF holds one seamless loop at 15 fps. The MP4 (H.264, 30 fps, no audio) repeats the loop until it lasts at least 5 seconds. The buddies are framed automatically from where they move during the whole clip, with the caption underneath and a small *BuddyRevival* mark in the corner. *Download* saves the file; on phones, *Share* opens the system share sheet, where Instagram, TikTok and WhatsApp appear. MP4 needs WebCodecs with H.264 (current Chrome, Edge, Safari and Firefox); where it is missing, only GIF is offered.
+The GIF holds one seamless loop at 15 fps. The MP4 (H.264, 30 fps, no audio) repeats the loop until it lasts at least 5 seconds. The buddies are framed automatically from where they move during the whole clip, with the caption underneath and a small *BuddyRevival* mark in the corner.
+
+The *Text* box personalizes the clip. *Your name* and *Friend's name* replace "You" and "Friend" in the caption, both in the video and on screen, and are remembered in `localStorage`. *Phrase* starts as the mood or poke caption and can be rewritten freely (line breaks and emoji work); leave it empty for a clip with no text.
+
+*Download* saves the file. On phones, *Share* opens the system share sheet with the file attached. That is how the clip reaches Instagram Stories (pick *Instagram → Stories*) or WhatsApp Status (pick *WhatsApp → My status*): a web page cannot post to either directly, since those integrations are only open to native apps. The vertical MP4 is sized for both. MP4 needs WebCodecs with H.264 (current Chrome, Edge, Safari and Firefox); where it is missing, only GIF is offered.
 
 Looks are saved in `localStorage` under the key `buddyrevival`. A look can also be passed in the URL, which is how the original Flash embed received it:
 

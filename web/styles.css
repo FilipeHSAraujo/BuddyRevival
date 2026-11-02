@@ -42,6 +42,8 @@ dialog h2 { font-size: 16px; margin: 0 0 12px; }
 dialog fieldset { border: 1px solid var(--line); border-radius: 6px; margin: 0 0 10px; padding: 6px 10px 8px; }
 dialog legend { padding: 0 4px; color: var(--muted); }
 .choice { display: flex; align-items: baseline; gap: 6px; padding: 3px 0; cursor: pointer; }
+.choice { flex-wrap: wrap; }
+.choice span { white-space: nowrap; }
 .choice small { color: var(--muted); }
 dialog progress { width: 100%; margin: 6px 0; }
 .export-status { color: var(--muted); font-size: 12px; min-height: 1.4em; margin: 6px 0; overflow-wrap: anywhere; }
@@ -51,3 +53,11 @@ dialog .toolbar { margin: 0; }
 .button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
 .button:disabled { opacity: .5; cursor: default; }
 a.button { text-decoration: none; display: inline-block; }
+.field { display: grid; grid-template-columns: 110px 1fr; align-items: center; gap: 8px; padding: 3px 0; }
+.field[hidden] { display: none; }
+.field input, .field textarea { font: inherit; padding: 5px 6px; border: 1px solid var(--line); border-radius: 4px; width: 100%; resize: vertical; }
+.link { border: 0; background: none; padding: 2px 0; color: var(--accent); font: inherit; font-size: 12px; cursor: pointer; text-decoration: underline; }
+.export-hint { color: var(--muted); font-size: 12px; margin: 8px 0; }
+.export-preview { margin-top: 10px; }
+.export-hint:empty { display: none; }
+@media (max-width: 500px) { .field { grid-template-columns: 1fr; gap: 2px; } }
