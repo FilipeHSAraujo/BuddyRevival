@@ -73,25 +73,43 @@ let editing = 'me';
 let redrawWardrobe = () => {};
 let paused = false;
 let exportable = null;
+let describe = null;
 const caption = message => { $('caption').textContent = message; };
 
+// Names typed in the export dialog replace "You" and "Friend" in captions.
+const names = () => ({ me: saved.names?.me ?? '', friend: saved.names?.friend ?? '' });
+const nameOf = who => names()[who].trim() || t(who === 'me' ? 'You' : 'Friend');
+const showDescription = () => { if (describe) caption(describe()); };
+
 // What the export dialog records: the mood or poke currently on screen, one loop of it.
-const clipOf = ({ name, scene, camera, actors }) => {
+const clipOf = ({ name, scene, camera, actors, template }) => {
   const animation = actors[0].animation;
   if (!animation) return null;
   return {
     name,
     scene,
     camera,
-    caption: $('caption').textContent,
+    names: names(),
+    hasFriend: actors.length > 1,
+    describe: ({ me, friend }) => template.replace('%1', me.trim() || t('You')).replace('%2', friend.trim() || t('Friend')).replace('%', me.trim() || t('You')),
     frameCount: Math.max(1, animation.frameCount - 1),
     showFrame: frame => actors.forEach(actor => actor.showFrame(frame)),
   };
 };
 
-const openExport = setupExportDialog($('export-dialog'), () => exportable?.(), pause => {
-  paused = pause;
-  if (!pause) for (const buddy of Object.values(buddies)) buddy.animation?.reset();
+const openExport = setupExportDialog($('export-dialog'), {
+  source: () => exportable?.(),
+  pause: pause => {
+    paused = pause;
+    if (!pause) for (const buddy of Object.values(buddies)) buddy.animation?.reset();
+  },
+  rename: typed => {
+    saved.names = typed;
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+    } catch {}
+    showDescription();
+  },
 });
 $('export').onclick = openExport;
 
@@ -110,6 +128,7 @@ async function customize(who) {
   buddy.camera = buddy.scene.node(EXAMINE_CAMERA);
   buddy.play('pose_contra');
   canvas.classList.add('examine');
+  describe = null;
   caption(t('click and drag your mouse to rotate'));
   $('code').value = saved[who] ?? await wardrobe.codeOf(buddy);
   redrawWardrobe = await renderWardrobe($('wardrobe'), wardrobe, buddy, () => save(who));
@@ -119,16 +138,18 @@ function showMood(mood) {
   mode = 'mood';
   buddies.me.camera = null;
   buddies.me.play(mood.animation, { loop: true });
-  caption(t(mood.caption).replace('%', t('You')));
-  exportable = () => clipOf({ name: mood.name, scene: buddies.me.scene, camera: buddies.me.camera, actors: [buddies.me] });
+  describe = () => t(mood.caption).replace('%', nameOf('me'));
+  showDescription();
+  exportable = () => clipOf({ name: mood.name, scene: buddies.me.scene, camera: buddies.me.camera, actors: [buddies.me], template: t(mood.caption) });
 }
 
 function showPoke(poke) {
   mode = 'poke';
   buddies.me.play(poke.animations[0], { loop: true });
   buddies.friend.play(poke.animations[1], { loop: true });
-  caption(t(poke.caption).replace('%1', t('You')).replace('%2', t('Friend')));
-  exportable = () => clipOf({ name: poke.name, scene: stage.scene, camera: stage.renderer.camera, actors: [buddies.me, buddies.friend] });
+  describe = () => t(poke.caption).replace('%1', nameOf('me')).replace('%2', nameOf('friend'));
+  showDescription();
+  exportable = () => clipOf({ name: poke.name, scene: stage.scene, camera: stage.renderer.camera, actors: [buddies.me, buddies.friend], template: t(poke.caption) });
 }
 
 const tabs = { wardrobe: 'tab-wardrobe', mood: 'tab-moods', poke: 'tab-pokes' };

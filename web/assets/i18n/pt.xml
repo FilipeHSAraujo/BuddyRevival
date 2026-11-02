@@ -763,11 +763,19 @@
   <msg name="Landscape 4:3">Paisagem 4:3</msg>
   <msg name="Feed">Feed</msg>
   <msg name="Like the screen">Como na tela</msg>
-  <msg name="Include caption">Incluir legenda</msg>
   <msg name="Create">Gerar</msg>
   <msg name="Download">Baixar</msg>
   <msg name="Recording...">Gravando...</msg>
   <msg name="Not supported by this browser">Não suportado neste navegador</msg>
   <msg name="Could not create the file.">Não foi possível gerar o arquivo.</msg>
+  <msg name="Stories, WhatsApp Status, Reels, TikTok">Stories, Status do WhatsApp, Reels, TikTok</msg>
+  <msg name="Text">Texto</msg>
+  <msg name="Friend's name">Nome do amigo</msg>
+  <msg name="Your name">Seu nome</msg>
+  <msg name="Phrase">Frase</msg>
+  <msg name="No caption">Sem legenda</msg>
+  <msg name="Restore phrase">Restaurar frase</msg>
+  <msg name="To post on Instagram Stories or WhatsApp Status, open BuddyRevival on your phone.">Para postar nos Stories do Instagram ou no Status do WhatsApp, abra o BuddyRevival no celular.</msg>
+  <msg name="In the menu, choose Instagram → Stories, or WhatsApp → My status.">No menu, escolha Instagram → Stories, ou WhatsApp → Meu status.</msg>
 
 </messagebundle>

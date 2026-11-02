@@ -47,9 +47,9 @@ async function exportMp4(source, [width, height], caption, progress) {
 
 /**
  * Renders one loop of an animation into a GIF or MP4 file.
- * source: { scene, camera, frameCount, showFrame(frame), caption, name }
+ * source: { scene, camera, frameCount, showFrame(frame), name }; caption: text under the buddies.
  */
-export async function exportClip(source, { format, aspect, caption = true, onProgress = () => {} }) {
+export async function exportClip(source, { format, aspect, caption = '', onProgress = () => {} }) {
   const size = ASPECTS[aspect]?.[format];
   if (!size) throw new Error(`unknown export: ${format} ${aspect}`);
   const blob = format === 'gif' ? await exportGif(source, size, caption, onProgress) : await exportMp4(source, size, caption, onProgress);
