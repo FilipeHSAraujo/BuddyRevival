@@ -14,7 +14,8 @@ web/
 │   ├── main.js           wires everything together
 │   ├── engine/           reads packages and draws 3D scenes; knows nothing about buddies
 │   ├── domain/           buddies, catalogs, textures, wardrobe, poses, translations
-│   └── ui/               DOM rendering for the wardrobe and the action grids
+│   ├── export/           renders a mood or poke into a GIF or MP4 file
+│   └── ui/               DOM rendering for the wardrobe, the action grids and the export dialog
 └── assets/               the data: packages, catalog, wardrobe, moods, pokes, icons, languages
 tests/engine.test.mjs     regression test, runs on Node
 tools/add-symbol.mjs      adds artwork to the texture library
@@ -79,6 +80,16 @@ Rows appear and disappear depending on what you are wearing. *Hair Color* is hid
 **Change Mood.** Plays one of 39 mood animations on your buddy.
 
 **Poke a Friend.** Places both buddies on a stage and plays one of 28 paired animations.
+
+**Save as video or GIF.** On the mood and poke tabs, this button records the animation on screen into a file you can post:
+
+| Shape | GIF | MP4 | Made for |
+|---|---|---|---|
+| Vertical 9:16 | 360×640 | 1080×1920 | Reels, Stories, TikTok |
+| Square 1:1 | 480×480 | 1080×1080 | Feed posts |
+| Landscape 4:3 | 640×480 | 1440×1080 | Same shape as the screen |
+
+The GIF holds one seamless loop at 15 fps. The MP4 (H.264, 30 fps, no audio) repeats the loop until it lasts at least 5 seconds. The buddies are framed automatically from where they move during the whole clip, with the caption underneath and a small *BuddyRevival* mark in the corner. *Download* saves the file; on phones, *Share* opens the system share sheet, where Instagram, TikTok and WhatsApp appear. MP4 needs WebCodecs with H.264 (current Chrome, Edge, Safari and Firefox); where it is missing, only GIF is offered.
 
 Looks are saved in `localStorage` under the key `buddyrevival`. A look can also be passed in the URL, which is how the original Flash embed received it:
 
@@ -156,6 +167,8 @@ The code is split into three layers. Each layer may only import from the layers 
 **Domain** (`web/src/domain`) gives meaning to the data. `Buddy` wraps a scene and dresses it from the catalog. `TextureLibrary` turns catalog materials into bitmaps. `Wardrobe` maps the rows of `wardrobe.xml` to catalog attributes. Nothing in this layer touches the page.
 
 **UI** (`web/src/ui`) builds DOM from domain objects and calls back when the user picks something. It holds no state of its own besides which picker is open.
+
+**Export** (`web/src/export`) sits beside the domain and only uses the engine. `clip.js` draws any frame of an animation into an off-screen canvas of the requested size: it first projects every frame to find the box the buddies move in, then scales a second `Renderer` so that box fills the output. Frames are rendered with `showFrame(n)`, not wall-clock time, so the file is exact no matter how slow the device is. `gif.js` is a small GIF89a encoder (median-cut palette, LZW, unchanged pixels left transparent). `mp4.js` encodes with the browser's `VideoEncoder` and writes the MP4 boxes by hand. The live frame loop is paused while a file is being made.
 
 **`main.js`** is the composition root. It loads the assets, creates two buddies and the stage, connects the tabs and buttons, and runs the frame loop. If you want to change *behavior* of the page, this is usually the only file to edit.
 
@@ -251,7 +264,7 @@ There is no WebGL. `engine/renderer.js` is a classic software pipeline built on 
    `x' = x · f · w/2 / z + w/2`, `y' = −y · f · w/2 / z + h/2`. Using the width for both axes keeps pixels square.
 3. **Culling.** A triangle is skipped when its screen-space winding shows it faces away from the camera, or when its region is culled by a worn item.
 4. **Sorting.** Remaining triangles are sorted by the depth of their farthest vertex, farthest first — the **painter's algorithm**. It is correct enough for small convex-ish characters and avoids a depth buffer, which Canvas 2D does not have.
-5. **Texturing.** For each triangle, the renderer computes the affine matrix that maps the texture triangle onto the screen triangle, sets it on a `CanvasPattern`, and fills the triangle path. Each triangle is grown by 0.6 px to hide anti-aliasing seams between neighbors.
+5. **Texturing.** For each triangle, the renderer computes the affine matrix that maps the texture triangle onto the screen triangle, sets it on a `CanvasPattern`, and fills the triangle path. Each triangle is grown by 0.6 px to hide anti-aliasing seams between neighbors. A few meshes (caps and some hair styles) contain faces whose UVs collapse to a line or a point; that matrix has no inverse, so those faces take the color of the single texel under their first UV instead.
 
 Affine mapping is not perspective-correct, but triangles on a buddy are small enough that the difference is invisible — the original Flash renderer made the same trade-off.
 
